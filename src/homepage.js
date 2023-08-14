@@ -514,7 +514,7 @@ const HomePage = () => {
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
                     <a href="index.html">
-                      <img src="img/product/1.png" alt="Image" />
+                      <img src="img/product/1.png" alt="achieve" />
                     </a>
                     <span className="mini-cart-item-delete">
                       <i className="icon-cancel" />
@@ -530,7 +530,7 @@ const HomePage = () => {
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
                     <a href="index.html">
-                      <img src="img/product/2.png" alt="Image" />
+                      <img src="img/product/2.png" alt="achieve" />
                     </a>
                     <span className="mini-cart-item-delete">
                       <i className="icon-cancel" />
@@ -546,7 +546,7 @@ const HomePage = () => {
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
                     <a href="index.html">
-                      <img src="img/product/3.png" alt="Image" />
+                      <img src="img/product/3.png" alt="achieve" />
                     </a>
                     <span className="mini-cart-item-delete">
                       <i className="icon-cancel" />
@@ -562,7 +562,7 @@ const HomePage = () => {
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
                     <a href="index.html">
-                      <img src="img/product/4.png" alt="Image" />
+                      <img src="img/product/4.png" alt="achieve" />
                     </a>
                     <span className="mini-cart-item-delete">
                       <i className="icon-cancel" />
@@ -609,7 +609,7 @@ const HomePage = () => {
             <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
               {/* ltn__slide-item */}
               <div
-                className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60---"
+                className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
                 data-bs-bg="img/slider/13.jpg"
               >
                 <div className="ltn__slide-item-inner  text-left">
@@ -652,7 +652,7 @@ const HomePage = () => {
               </div>
               {/* ltn__slide-item */}
               <div
-                className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60---"
+                className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
                 data-bs-bg="img/slider/11.jpg"
               >
                 <div className="ltn__slide-item-inner text-center">
@@ -704,7 +704,7 @@ const HomePage = () => {
               </div>
               {/* ltn__slide-item */}
               <div
-                className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60---"
+                className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
                 data-bs-bg="img/slider/12.jpg"
               >
                 <div className="ltn__slide-item-inner  text-right text-end">
