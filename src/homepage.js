@@ -20,7 +20,7 @@ const HomePage = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="locations.html">
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                           <i className="icon-placeholder" /> 15/A, Nest Tower,
                           NYC
                         </a>
@@ -37,7 +37,10 @@ const HomePage = () => {
                           <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
                             <ul>
                               <li>
-                                <a className="dropdown-toggle">
+                                <a
+                                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                                  className="dropdown-toggle"
+                                >
                                   <span className="active-currency">
                                     English
                                   </span>
@@ -71,22 +74,34 @@ const HomePage = () => {
                           <div className="ltn__social-media">
                             <ul>
                               <li>
-                                <a title="Facebook">
+                                <a
+                                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                                  title="Facebook"
+                                >
                                   <i className="fab fa-facebook-f" />
                                 </a>
                               </li>
                               <li>
-                                <a title="Twitter">
+                                <a
+                                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                                  title="Twitter"
+                                >
                                   <i className="fab fa-twitter" />
                                 </a>
                               </li>
                               <li>
-                                <a title="Instagram">
+                                <a
+                                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                                  title="Instagram"
+                                >
                                   <i className="fab fa-instagram" />
                                 </a>
                               </li>
                               <li>
-                                <a title="Dribbble">
+                                <a
+                                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                                  title="Dribbble"
+                                >
                                   <i className="fab fa-dribbble" />
                                 </a>
                               </li>
@@ -108,7 +123,7 @@ const HomePage = () => {
                 <div className="col">
                   <div className="site-logo-wrap">
                     <div className="site-logo">
-                      <a href="index.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/logo.png" alt="Logo" />
                       </a>
                     </div>
@@ -119,7 +134,9 @@ const HomePage = () => {
                       <div className="get-support-info">
                         <h6>Get Support</h6>
                         <h4>
-                          <a href="tel:+123456789">123-456-789-10</a>
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                            123-456-789-10
+                          </a>
                         </h4>
                       </div>
                     </div>
@@ -134,15 +151,21 @@ const HomePage = () => {
                             <a>Home</a>
                             <ul className="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
                               <li>
-                                <a href="index.html">Home Style 01</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  Home Style 01
+                                </a>
                                 <img src="img/home-demos/home-1.jpg" alt="#" />
                               </li>
                               <li>
-                                <a href="index-2.html">Home Style 02</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  Home Style 02
+                                </a>
                                 <img src="img/home-demos/home-2.jpg" alt="#" />
                               </li>
                               <li>
-                                <a href="index-3.html">Home Style 03</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  Home Style 03
+                                </a>
                                 <img src="img/home-demos/home-3.jpg" alt="#" />
                               </li>
                             </ul>
@@ -151,21 +174,29 @@ const HomePage = () => {
                             <a>About</a>
                             <ul>
                               <li>
-                                <a href="about.html">About</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  About
+                                </a>
                               </li>
                               <li>
-                                <a href="service.html">Services</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  Services
+                                </a>
                               </li>
                               <li>
-                                <a href="service-details.html">
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   Service Details
                                 </a>
                               </li>
                               <li>
-                                <a href="portfolio.html">Gallery</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  Gallery
+                                </a>
                               </li>
                               <li>
-                                <a href="portfolio-2.html">Gallery - 02</a>
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  Gallery - 02
+                                </a>
                               </li>
                               <li>
                                 <a href="portfolio-details.html">
@@ -192,7 +223,7 @@ const HomePage = () => {
                             <a>Shop</a>
                             <ul>
                               <li>
-                                <a href="shop.html">Shop</a>
+                                <a>Shop</a>
                               </li>
                               <li>
                                 <a href="shop-grid.html">Shop Grid</a>
@@ -208,7 +239,9 @@ const HomePage = () => {
                                 </a>
                               </li>
                               <li>
-                                <a href="product-details.html">Shop details </a>
+                                <a href="shop-right-sidebar.html">
+                                  Shop details{" "}
+                                </a>
                               </li>
                               <li>
                                 <a>
@@ -217,10 +250,14 @@ const HomePage = () => {
                                 </a>
                                 <ul>
                                   <li>
-                                    <a href="cart.html">Cart</a>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Cart
+                                    </a>
                                   </li>
                                   <li>
-                                    <a href="wishlist.html">Wishlist</a>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Wishlist
+                                    </a>
                                   </li>
                                   <li>
                                     <a href="checkout.html">Checkout</a>
@@ -324,7 +361,9 @@ const HomePage = () => {
                                 <a>Shop Pages</a>
                                 <ul>
                                   <li>
-                                    <a href="shop.html">Shop</a>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Shop
+                                    </a>
                                   </li>
                                   <li>
                                     <a href="shop-left-sidebar.html">
@@ -340,17 +379,19 @@ const HomePage = () => {
                                     <a href="shop-grid.html">Shop Grid</a>
                                   </li>
                                   <li>
-                                    <a href="product-details.html">
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                       Shop details{" "}
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="cart.html">Cart</a>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Cart
+                                    </a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="shop.html">
+                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   <img
                                     src="img/banner/menu-banner-1.png"
                                     alt="#"
@@ -401,16 +442,24 @@ const HomePage = () => {
                         </a>
                         <ul>
                           <li>
-                            <a href="login.html">Sign in</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              Sign in
+                            </a>
                           </li>
                           <li>
-                            <a href="register.html">Register</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              Register
+                            </a>
                           </li>
                           <li>
-                            <a href="account.html">My Account</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              My Account
+                            </a>
                           </li>
                           <li>
-                            <a href="wishlist.html">Wishlist</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              Wishlist
+                            </a>
                           </li>
                         </ul>
                       </li>
@@ -537,10 +586,16 @@ const HomePage = () => {
                   </h5>
                 </div>
                 <div className="btn-wrapper">
-                  <a href="cart.html" className="theme-btn-1 btn btn-effect-1">
+                  <a
+                    href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                    className="theme-btn-1 btn btn-effect-1"
+                  >
                     View Cart
                   </a>
-                  <a href="cart.html" className="theme-btn-2 btn btn-effect-2">
+                  <a
+                    href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                    className="theme-btn-2 btn btn-effect-2"
+                  >
                     Checkout
                   </a>
                 </div>
@@ -550,250 +605,6 @@ const HomePage = () => {
           </div>
         </>
         <>
-          <div
-            id="ltn__utilize-mobile-menu"
-            className="ltn__utilize ltn__utilize-mobile-menu"
-          >
-            <div className="ltn__utilize-menu-inner ltn__scrollbar">
-              <div className="ltn__utilize-menu-head">
-                <div className="site-logo">
-                  <a href="index.html">
-                    <img src="img/logo.png" alt="Logo" />
-                  </a>
-                </div>
-                <button className="ltn__utilize-close">×</button>
-              </div>
-              <div className="ltn__utilize-menu-search-form">
-                <form action="#">
-                  <input type="text" placeholder="Search..." />
-                  <button>
-                    <i className="fas fa-search" />
-                  </button>
-                </form>
-              </div>
-              <div className="ltn__utilize-menu">
-                <ul>
-                  <li>
-                    <a>Home</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="index.html">Home Style 01</a>
-                      </li>
-                      <li>
-                        <a href="index-2.html">Home Style 02</a>
-                      </li>
-                      <li>
-                        <a href="index-3.html">Home Style 03</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a>About</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="about.html">About</a>
-                      </li>
-                      <li>
-                        <a href="service.html">Services</a>
-                      </li>
-                      <li>
-                        <a href="service-details.html">Service Details</a>
-                      </li>
-                      <li>
-                        <a href="portfolio.html">Portfolio</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-2.html">Portfolio - 02</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-details.html">Portfolio Details</a>
-                      </li>
-                      <li>
-                        <a href="team.html">Team</a>
-                      </li>
-                      <li>
-                        <a href="team-details.html">Team Details</a>
-                      </li>
-                      <li>
-                        <a href="faq.html">FAQ</a>
-                      </li>
-                      <li>
-                        <a href="locations.html">Google Map Locations</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a>Shop</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="shop.html">Shop</a>
-                      </li>
-                      <li>
-                        <a href="shop-grid.html">Shop Grid</a>
-                      </li>
-                      <li>
-                        <a href="shop-left-sidebar.html">Shop Left sidebar</a>
-                      </li>
-                      <li>
-                        <a href="shop-right-sidebar.html">Shop right sidebar</a>
-                      </li>
-                      <li>
-                        <a href="product-details.html">Shop details </a>
-                      </li>
-                      <li>
-                        <a href="cart.html">Cart</a>
-                      </li>
-                      <li>
-                        <a href="wishlist.html">Wishlist</a>
-                      </li>
-                      <li>
-                        <a href="checkout.html">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="order-tracking.html">Order Tracking</a>
-                      </li>
-                      <li>
-                        <a href="account.html">My Account</a>
-                      </li>
-                      <li>
-                        <a href="login.html">Sign in</a>
-                      </li>
-                      <li>
-                        <a href="register.html">Register</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a>News</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="blog.html">News</a>
-                      </li>
-                      <li>
-                        <a href="blog-grid.html">News Grid</a>
-                      </li>
-                      <li>
-                        <a href="blog-left-sidebar.html">News Left sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-right-sidebar.html">News Right sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-details.html">News details</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a>Pages</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="about.html">About</a>
-                      </li>
-                      <li>
-                        <a href="service.html">Services</a>
-                      </li>
-                      <li>
-                        <a href="service-details.html">Service Details</a>
-                      </li>
-                      <li>
-                        <a href="portfolio.html">Portfolio</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-2.html">Portfolio - 02</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-details.html">Portfolio Details</a>
-                      </li>
-                      <li>
-                        <a href="team.html">Team</a>
-                      </li>
-                      <li>
-                        <a href="team-details.html">Team Details</a>
-                      </li>
-                      <li>
-                        <a href="faq.html">FAQ</a>
-                      </li>
-                      <li>
-                        <a href="history.html">History</a>
-                      </li>
-                      <li>
-                        <a href="add-listing.html">Add Listing</a>
-                      </li>
-                      <li>
-                        <a href="locations.html">Google Map Locations</a>
-                      </li>
-                      <li>
-                        <a href="404.html">404</a>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact</a>
-                      </li>
-                      <li>
-                        <a href="coming-soon.html">Coming Soon</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
-                <ul>
-                  <li>
-                    <a href="account.html" title="My Account">
-                      <span className="utilize-btn-icon">
-                        <i className="far fa-user" />
-                      </span>
-                      My Account
-                    </a>
-                  </li>
-                  <li>
-                    <a href="wishlist.html" title="Wishlist">
-                      <span className="utilize-btn-icon">
-                        <i className="far fa-heart" />
-                        <sup>3</sup>
-                      </span>
-                      Wishlist
-                    </a>
-                  </li>
-                  <li>
-                    <a href="cart.html" title="Shoping Cart">
-                      <span className="utilize-btn-icon">
-                        <i className="fas fa-shopping-cart" />
-                        <sup>5</sup>
-                      </span>
-                      Shoping Cart
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="ltn__social-media-2">
-                <ul>
-                  <li>
-                    <a title="Facebook">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a title="Twitter">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a title="Linkedin">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                  </li>
-                  <li>
-                    <a title="Instagram">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
           {/* Utilize Mobile Menu End */}
           <div className="ltn__utilize-overlay" />
           {/* SLIDER AREA START (slider-3) */}
@@ -828,10 +639,7 @@ const HomePage = () => {
                               </p>
                             </div>
                             <div className="btn-wrapper animated">
-                              <a
-                                href="shop.html"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <a className="theme-btn-1 btn btn-effect-1">
                                 Shop Now
                               </a>
                             </div>
@@ -880,10 +688,7 @@ const HomePage = () => {
                               </p>
                             </div>
                             <div className="btn-wrapper animated">
-                              <a
-                                href="shop.html"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <a className="theme-btn-1 btn btn-effect-1">
                                 Shop Now
                               </a>
                             </div>
@@ -923,10 +728,7 @@ const HomePage = () => {
                               </p>
                             </div>
                             <div className="btn-wrapper animated">
-                              <a
-                                href="shop.html"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <a className="theme-btn-1 btn btn-effect-1">
                                 Shop Now
                               </a>
                             </div>
@@ -948,13 +750,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-notes-medical" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Best Deals</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Best Deals
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -962,13 +766,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-box-tissue" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Germs Pads</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Germs Pads
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -976,13 +782,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-pump-medical" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Accessories</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Accessories
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -990,13 +798,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-bong" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Medicine Cap</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Medicine Cap
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1004,13 +814,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-tooth" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Dental Item</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Dental Item
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1018,13 +830,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-microscope" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Best Deals</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Best Deals
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1032,13 +846,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-syringe" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">All Products</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          All Products
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1046,13 +862,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-stethoscope" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Germs Pads</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Germs Pads
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1060,13 +878,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-hand-holding-medical" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Accessories</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Accessories
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1074,13 +894,15 @@ const HomePage = () => {
                 <div className="col-12">
                   <div className="ltn__category-item ltn__category-item-6 text-center">
                     <div className="ltn__category-item-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <i className="fas fa-procedures" />
                       </a>
                     </div>
                     <div className="ltn__category-item-name">
                       <h6>
-                        <a href="shop.html">Medicine Cap</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Medicine Cap
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -1167,7 +989,7 @@ const HomePage = () => {
                 <div className="col-lg-4 col-sm-6">
                   <div className="ltn__banner-item">
                     <div className="ltn__banner-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/banner/1.jpg" alt="Banner Image" />
                       </a>
                     </div>
@@ -1176,7 +998,7 @@ const HomePage = () => {
                 <div className="col-lg-4 col-sm-6">
                   <div className="ltn__banner-item">
                     <div className="ltn__banner-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/banner/2.jpg" alt="Banner Image" />
                       </a>
                     </div>
@@ -1185,7 +1007,7 @@ const HomePage = () => {
                 <div className="col-lg-4 col-sm-6">
                   <div className="ltn__banner-item">
                     <div className="ltn__banner-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/banner/3.jpg" alt="Banner Image" />
                       </a>
                     </div>
@@ -1211,7 +1033,7 @@ const HomePage = () => {
                     <div className="col-lg-12 col-sm-6">
                       <div className="ltn__banner-item">
                         <div className="ltn__banner-img">
-                          <a href="shop.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/banner/11.jpg" alt="Banner Image" />
                           </a>
                         </div>
@@ -1220,7 +1042,7 @@ const HomePage = () => {
                     <div className="col-lg-12 col-sm-6">
                       <div className="ltn__banner-item">
                         <div className="ltn__banner-img">
-                          <a href="shop.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/banner/12.jpg" alt="Banner Image" />
                           </a>
                         </div>
@@ -1234,7 +1056,7 @@ const HomePage = () => {
                     <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
                       <div className="ltn__product-item ltn__product-item-2 text-left">
                         <div className="product-img">
-                          <a href="product-details.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/product/1.png" alt="#" />
                           </a>
                           <div className="product-badge">
@@ -1305,7 +1127,9 @@ const HomePage = () => {
                             </ul>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">Antiseptic Spray</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              Antiseptic Spray
+                            </a>
                           </h2>
                           <div className="product-price">
                             <span>$32.00</span>
@@ -1318,7 +1142,7 @@ const HomePage = () => {
                     <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
                       <div className="ltn__product-item ltn__product-item-2 text-left">
                         <div className="product-img">
-                          <a href="product-details.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/product/2.png" alt="#" />
                           </a>
                           <div className="product-hover-action">
@@ -1384,7 +1208,7 @@ const HomePage = () => {
                             </ul>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                               Digital Stethoscope
                             </a>
                           </h2>
@@ -1399,7 +1223,7 @@ const HomePage = () => {
                     <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
                       <div className="ltn__product-item ltn__product-item-2 text-left">
                         <div className="product-img">
-                          <a href="product-details.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/product/3.png" alt="#" />
                           </a>
                           <div className="product-badge">
@@ -1470,7 +1294,7 @@ const HomePage = () => {
                             </ul>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                               Cosmetic Containers
                             </a>
                           </h2>
@@ -1485,7 +1309,7 @@ const HomePage = () => {
                     <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
                       <div className="ltn__product-item ltn__product-item-2 text-left">
                         <div className="product-img">
-                          <a href="product-details.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/product/4.png" alt="#" />
                           </a>
                           <div className="product-badge">
@@ -1556,7 +1380,7 @@ const HomePage = () => {
                             </ul>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                               Cosmetic Containers
                             </a>
                           </h2>
@@ -1571,7 +1395,7 @@ const HomePage = () => {
                     <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
                       <div className="ltn__product-item ltn__product-item-2 text-left">
                         <div className="product-img">
-                          <a href="product-details.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/product/5.png" alt="#" />
                           </a>
                           <div className="product-badge">
@@ -1642,7 +1466,9 @@ const HomePage = () => {
                             </ul>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">Blue Hand Gloves</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              Blue Hand Gloves
+                            </a>
                           </h2>
                           <div className="product-price">
                             <span>$150.00</span>
@@ -1655,7 +1481,7 @@ const HomePage = () => {
                     <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
                       <div className="ltn__product-item ltn__product-item-2 text-left">
                         <div className="product-img">
-                          <a href="product-details.html">
+                          <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                             <img src="img/product/6.png" alt="#" />
                           </a>
                           <div className="product-badge">
@@ -1726,7 +1552,9 @@ const HomePage = () => {
                             </ul>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">Thermometer Gun</a>
+                            <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                              Thermometer Gun
+                            </a>
                           </h2>
                           <div className="product-price">
                             <span>$150.00</span>
@@ -1775,10 +1603,7 @@ const HomePage = () => {
                       >
                         Book Now
                       </a>
-                      <a
-                        href="shop.html"
-                        className="ltn__secondary-color text-decoration-underline"
-                      >
+                      <a className="ltn__secondary-color text-decoration-underline">
                         Deal of The Day
                       </a>
                     </div>
@@ -1806,7 +1631,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/1.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -1877,7 +1702,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Antiseptic Spray</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Antiseptic Spray
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$32.00</span>
@@ -1890,7 +1717,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/2.png" alt="#" />
                       </a>
                       <div className="product-hover-action">
@@ -1956,7 +1783,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Digital Stethoscope</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Digital Stethoscope
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$25.00</span>
@@ -1969,7 +1798,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/3.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2040,7 +1869,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Cosmetic Containers</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Cosmetic Containers
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$75.00</span>
@@ -2053,7 +1884,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/4.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2124,7 +1955,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Cosmetic Containers</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Cosmetic Containers
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$78.00</span>
@@ -2137,7 +1970,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/5.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2208,7 +2041,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Blue Hand Gloves</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Blue Hand Gloves
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$150.00</span>
@@ -2221,7 +2056,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/6.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2292,7 +2127,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Thermometer Gun</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Thermometer Gun
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$150.00</span>
@@ -2305,7 +2142,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/7.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2376,7 +2213,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Cosmetic Containers</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Cosmetic Containers
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$75.00</span>
@@ -2389,7 +2228,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-left">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product-2/8.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2460,7 +2299,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Cosmetic Containers</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Cosmetic Containers
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$78.00</span>
@@ -2600,7 +2441,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-center">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product/1.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2671,7 +2512,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Antiseptic Spray</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Antiseptic Spray
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$32.00</span>
@@ -2684,7 +2527,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-center">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product/2.png" alt="#" />
                       </a>
                       <div className="product-hover-action">
@@ -2750,7 +2593,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Digital Stethoscope</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Digital Stethoscope
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$25.00</span>
@@ -2763,7 +2608,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-center">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product/3.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2834,7 +2679,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Cosmetic Containers</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Cosmetic Containers
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$75.00</span>
@@ -2847,7 +2694,7 @@ const HomePage = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                   <div className="ltn__product-item ltn__product-item-3 text-center">
                     <div className="product-img">
-                      <a href="product-details.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/product/4.png" alt="#" />
                       </a>
                       <div className="product-badge">
@@ -2918,7 +2765,9 @@ const HomePage = () => {
                         </ul>
                       </div>
                       <h2 className="product-title">
-                        <a href="product-details.html">Cosmetic Containers</a>
+                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                          Cosmetic Containers
+                        </a>
                       </h2>
                       <div className="product-price">
                         <span>$78.00</span>
@@ -2939,7 +2788,7 @@ const HomePage = () => {
                 <div className="col-lg-4 col-sm-6">
                   <div className="ltn__banner-item">
                     <div className="ltn__banner-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/banner/23.jpg" alt="Banner Image" />
                       </a>
                     </div>
@@ -2948,7 +2797,7 @@ const HomePage = () => {
                 <div className="col-lg-4 col-sm-6">
                   <div className="ltn__banner-item">
                     <div className="ltn__banner-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/banner/22.jpg" alt="Banner Image" />
                       </a>
                     </div>
@@ -2957,7 +2806,7 @@ const HomePage = () => {
                 <div className="col-lg-4 col-sm-6">
                   <div className="ltn__banner-item">
                     <div className="ltn__banner-img">
-                      <a href="shop.html">
+                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                         <img src="img/banner/21.jpg" alt="Banner Image" />
                       </a>
                     </div>
