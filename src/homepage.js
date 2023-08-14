@@ -37,29 +37,29 @@ const HomePage = () => {
                           <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
                             <ul>
                               <li>
-                                <a href="#" className="dropdown-toggle">
+                                <a className="dropdown-toggle">
                                   <span className="active-currency">
                                     English
                                   </span>
                                 </a>
                                 <ul>
                                   <li>
-                                    <a href="#">Arabic</a>
+                                    <a>Arabic</a>
                                   </li>
                                   <li>
-                                    <a href="#">Bengali</a>
+                                    <a>Bengali</a>
                                   </li>
                                   <li>
-                                    <a href="#">Chinese</a>
+                                    <a>Chinese</a>
                                   </li>
                                   <li>
-                                    <a href="#">English</a>
+                                    <a>English</a>
                                   </li>
                                   <li>
-                                    <a href="#">French</a>
+                                    <a>French</a>
                                   </li>
                                   <li>
-                                    <a href="#">Hindi</a>
+                                    <a>Hindi</a>
                                   </li>
                                 </ul>
                               </li>
@@ -71,22 +71,22 @@ const HomePage = () => {
                           <div className="ltn__social-media">
                             <ul>
                               <li>
-                                <a href="#" title="Facebook">
+                                <a title="Facebook">
                                   <i className="fab fa-facebook-f" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#" title="Twitter">
+                                <a title="Twitter">
                                   <i className="fab fa-twitter" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#" title="Instagram">
+                                <a title="Instagram">
                                   <i className="fab fa-instagram" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#" title="Dribbble">
+                                <a title="Dribbble">
                                   <i className="fab fa-dribbble" />
                                 </a>
                               </li>
@@ -131,7 +131,7 @@ const HomePage = () => {
                       <div className="ltn__main-menu">
                         <ul>
                           <li className="menu-icon">
-                            <a href="#">Home</a>
+                            <a>Home</a>
                             <ul className="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
                               <li>
                                 <a href="index.html">Home Style 01</a>
@@ -148,7 +148,7 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a href="#">About</a>
+                            <a>About</a>
                             <ul>
                               <li>
                                 <a href="about.html">About</a>
@@ -189,7 +189,7 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a href="#">Shop</a>
+                            <a>Shop</a>
                             <ul>
                               <li>
                                 <a href="shop.html">Shop</a>
@@ -211,7 +211,7 @@ const HomePage = () => {
                                 <a href="product-details.html">Shop details </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   Other Pages{" "}
                                   <span className="float-right">&gt;&gt;</span>
                                 </a>
@@ -244,7 +244,7 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a href="#">News</a>
+                            <a>News</a>
                             <ul>
                               <li>
                                 <a href="blog.html">News</a>
@@ -268,10 +268,10 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a href="#">Pages</a>
+                            <a>Pages</a>
                             <ul className="mega-menu">
                               <li>
-                                <a href="#">Inner Pages</a>
+                                <a>Inner Pages</a>
                                 <ul>
                                   <li>
                                     <a href="portfolio.html">Gallery</a>
@@ -296,7 +296,7 @@ const HomePage = () => {
                                 </ul>
                               </li>
                               <li>
-                                <a href="#">Inner Pages</a>
+                                <a>Inner Pages</a>
                                 <ul>
                                   <li>
                                     <a href="history.html">History</a>
@@ -321,7 +321,7 @@ const HomePage = () => {
                                 </ul>
                               </li>
                               <li>
-                                <a href="#">Shop Pages</a>
+                                <a>Shop Pages</a>
                                 <ul>
                                   <li>
                                     <a href="shop.html">Shop</a>
@@ -396,7 +396,7 @@ const HomePage = () => {
                   <div className="ltn__drop-menu user-menu">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a>
                           <i className="icon-user" />
                         </a>
                         <ul>
@@ -467,7 +467,7 @@ const HomePage = () => {
               <div className="mini-cart-product-area ltn__scrollbar">
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
-                    <a href="#">
+                    <a>
                       <img src="img/product/1.png" alt="Image" />
                     </a>
                     <span className="mini-cart-item-delete">
@@ -476,14 +476,14 @@ const HomePage = () => {
                   </div>
                   <div className="mini-cart-info">
                     <h6>
-                      <a href="#">Antiseptic Spray</a>
+                      <a>Antiseptic Spray</a>
                     </h6>
                     <span className="mini-cart-quantity">1 x $65.00</span>
                   </div>
                 </div>
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
-                    <a href="#">
+                    <a>
                       <img src="img/product/2.png" alt="Image" />
                     </a>
                     <span className="mini-cart-item-delete">
@@ -492,14 +492,14 @@ const HomePage = () => {
                   </div>
                   <div className="mini-cart-info">
                     <h6>
-                      <a href="#">Digital Stethoscope</a>
+                      <a>Digital Stethoscope</a>
                     </h6>
                     <span className="mini-cart-quantity">1 x $85.00</span>
                   </div>
                 </div>
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
-                    <a href="#">
+                    <a>
                       <img src="img/product/3.png" alt="Image" />
                     </a>
                     <span className="mini-cart-item-delete">
@@ -508,14 +508,14 @@ const HomePage = () => {
                   </div>
                   <div className="mini-cart-info">
                     <h6>
-                      <a href="#">Cosmetic Containers</a>
+                      <a>Cosmetic Containers</a>
                     </h6>
                     <span className="mini-cart-quantity">1 x $92.00</span>
                   </div>
                 </div>
                 <div className="mini-cart-item clearfix">
                   <div className="mini-cart-img">
-                    <a href="#">
+                    <a>
                       <img src="img/product/4.png" alt="Image" />
                     </a>
                     <span className="mini-cart-item-delete">
@@ -524,7 +524,7 @@ const HomePage = () => {
                   </div>
                   <div className="mini-cart-info">
                     <h6>
-                      <a href="#">Thermometer Gun</a>
+                      <a>Thermometer Gun</a>
                     </h6>
                     <span className="mini-cart-quantity">1 x $68.00</span>
                   </div>
@@ -574,7 +574,7 @@ const HomePage = () => {
               <div className="ltn__utilize-menu">
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <a>Home</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="index.html">Home Style 01</a>
@@ -588,7 +588,7 @@ const HomePage = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="#">About</a>
+                    <a>About</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="about.html">About</a>
@@ -623,7 +623,7 @@ const HomePage = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Shop</a>
+                    <a>Shop</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="shop.html">Shop</a>
@@ -664,7 +664,7 @@ const HomePage = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="#">News</a>
+                    <a>News</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="blog.html">News</a>
@@ -684,7 +684,7 @@ const HomePage = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Pages</a>
+                    <a>Pages</a>
                     <ul className="sub-menu">
                       <li>
                         <a href="about.html">About</a>
@@ -771,22 +771,22 @@ const HomePage = () => {
               <div className="ltn__social-media-2">
                 <ul>
                   <li>
-                    <a href="#" title="Facebook">
+                    <a title="Facebook">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" title="Twitter">
+                    <a title="Twitter">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" title="Linkedin">
+                    <a title="Linkedin">
                       <i className="fab fa-linkedin" />
                     </a>
                   </li>
                   <li>
-                    <a href="#" title="Instagram">
+                    <a title="Instagram">
                       <i className="fab fa-instagram" />
                     </a>
                   </li>
@@ -1246,7 +1246,6 @@ const HomePage = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="#"
                                   title="Quick View"
                                   data-bs-toggle="modal"
                                   data-bs-target="#quick_view_modal"
@@ -1256,7 +1255,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Add to Cart"
                                   data-bs-toggle="modal"
                                   data-bs-target="#add_to_cart_modal"
@@ -1266,7 +1264,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Wishlist"
                                   data-bs-toggle="modal"
                                   data-bs-target="#liton_wishlist_modal"
@@ -1281,27 +1278,27 @@ const HomePage = () => {
                           <div className="product-ratting">
                             <ul>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star-half-alt" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="far fa-star" />
                                 </a>
                               </li>
@@ -1328,7 +1325,6 @@ const HomePage = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="#"
                                   title="Quick View"
                                   data-bs-toggle="modal"
                                   data-bs-target="#quick_view_modal"
@@ -1338,7 +1334,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Add to Cart"
                                   data-bs-toggle="modal"
                                   data-bs-target="#add_to_cart_modal"
@@ -1348,7 +1343,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Wishlist"
                                   data-bs-toggle="modal"
                                   data-bs-target="#liton_wishlist_modal"
@@ -1363,27 +1357,27 @@ const HomePage = () => {
                           <div className="product-ratting">
                             <ul>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star-half-alt" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="far fa-star" />
                                 </a>
                               </li>
@@ -1417,7 +1411,6 @@ const HomePage = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="#"
                                   title="Quick View"
                                   data-bs-toggle="modal"
                                   data-bs-target="#quick_view_modal"
@@ -1427,7 +1420,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Add to Cart"
                                   data-bs-toggle="modal"
                                   data-bs-target="#add_to_cart_modal"
@@ -1437,7 +1429,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Wishlist"
                                   data-bs-toggle="modal"
                                   data-bs-target="#liton_wishlist_modal"
@@ -1452,27 +1443,27 @@ const HomePage = () => {
                           <div className="product-ratting">
                             <ul>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star-half-alt" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="far fa-star" />
                                 </a>
                               </li>
@@ -1506,7 +1497,6 @@ const HomePage = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="#"
                                   title="Quick View"
                                   data-bs-toggle="modal"
                                   data-bs-target="#quick_view_modal"
@@ -1516,7 +1506,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Add to Cart"
                                   data-bs-toggle="modal"
                                   data-bs-target="#add_to_cart_modal"
@@ -1526,7 +1515,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Wishlist"
                                   data-bs-toggle="modal"
                                   data-bs-target="#liton_wishlist_modal"
@@ -1541,27 +1529,27 @@ const HomePage = () => {
                           <div className="product-ratting">
                             <ul>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star-half-alt" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="far fa-star" />
                                 </a>
                               </li>
@@ -1595,7 +1583,6 @@ const HomePage = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="#"
                                   title="Quick View"
                                   data-bs-toggle="modal"
                                   data-bs-target="#quick_view_modal"
@@ -1605,7 +1592,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Add to Cart"
                                   data-bs-toggle="modal"
                                   data-bs-target="#add_to_cart_modal"
@@ -1615,7 +1601,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Wishlist"
                                   data-bs-toggle="modal"
                                   data-bs-target="#liton_wishlist_modal"
@@ -1630,27 +1615,27 @@ const HomePage = () => {
                           <div className="product-ratting">
                             <ul>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star-half-alt" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="far fa-star" />
                                 </a>
                               </li>
@@ -1682,7 +1667,6 @@ const HomePage = () => {
                             <ul>
                               <li>
                                 <a
-                                  href="#"
                                   title="Quick View"
                                   data-bs-toggle="modal"
                                   data-bs-target="#quick_view_modal"
@@ -1692,7 +1676,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Add to Cart"
                                   data-bs-toggle="modal"
                                   data-bs-target="#add_to_cart_modal"
@@ -1702,7 +1685,6 @@ const HomePage = () => {
                               </li>
                               <li>
                                 <a
-                                  href="#"
                                   title="Wishlist"
                                   data-bs-toggle="modal"
                                   data-bs-target="#liton_wishlist_modal"
@@ -1717,27 +1699,27 @@ const HomePage = () => {
                           <div className="product-ratting">
                             <ul>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="fas fa-star-half-alt" />
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a>
                                   <i className="far fa-star" />
                                 </a>
                               </li>
@@ -1836,7 +1818,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -1846,7 +1827,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -1856,7 +1836,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -1871,27 +1850,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -1918,7 +1897,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -1928,7 +1906,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -1938,7 +1915,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -1953,27 +1929,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2005,7 +1981,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2015,7 +1990,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2025,7 +1999,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2040,27 +2013,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2092,7 +2065,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2102,7 +2074,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2112,7 +2083,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2127,27 +2097,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2179,7 +2149,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2189,7 +2158,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2199,7 +2167,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2214,27 +2181,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2266,7 +2233,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2276,7 +2242,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2286,7 +2251,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2301,27 +2265,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2353,7 +2317,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2363,7 +2326,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2373,7 +2335,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2388,27 +2349,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2440,7 +2401,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2450,7 +2410,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2460,7 +2419,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2475,27 +2433,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2654,7 +2612,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2664,7 +2621,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2674,7 +2630,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2689,27 +2644,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2736,7 +2691,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2746,7 +2700,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2756,7 +2709,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2771,27 +2723,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2823,7 +2775,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2833,7 +2784,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2843,7 +2793,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2858,27 +2807,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
@@ -2910,7 +2859,6 @@ const HomePage = () => {
                         <ul>
                           <li>
                             <a
-                              href="#"
                               title="Quick View"
                               data-bs-toggle="modal"
                               data-bs-target="#quick_view_modal"
@@ -2920,7 +2868,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Add to Cart"
                               data-bs-toggle="modal"
                               data-bs-target="#add_to_cart_modal"
@@ -2930,7 +2877,6 @@ const HomePage = () => {
                           </li>
                           <li>
                             <a
-                              href="#"
                               title="Wishlist"
                               data-bs-toggle="modal"
                               data-bs-target="#liton_wishlist_modal"
@@ -2945,27 +2891,27 @@ const HomePage = () => {
                       <div className="product-ratting">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="fas fa-star-half-alt" />
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a>
                               <i className="far fa-star" />
                             </a>
                           </li>
