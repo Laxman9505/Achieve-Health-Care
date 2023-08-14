@@ -47,22 +47,22 @@ const HomePage = () => {
                                 </a>
                                 <ul>
                                   <li>
-                                    <a>Arabic</a>
+                                    <a href="index.html">Arabic</a>
                                   </li>
                                   <li>
-                                    <a>Bengali</a>
+                                    <a href="index.html">Bengali</a>
                                   </li>
                                   <li>
-                                    <a>Chinese</a>
+                                    <a href="index.html">Chinese</a>
                                   </li>
                                   <li>
-                                    <a>English</a>
+                                    <a href="index.html">English</a>
                                   </li>
                                   <li>
-                                    <a>French</a>
+                                    <a href="index.html"> French</a>
                                   </li>
                                   <li>
-                                    <a>Hindi</a>
+                                    <a href="index.html">Hindi</a>
                                   </li>
                                 </ul>
                               </li>
@@ -148,7 +148,7 @@ const HomePage = () => {
                       <div className="ltn__main-menu">
                         <ul>
                           <li className="menu-icon">
-                            <a>Home</a>
+                            <a href="index.html">Home</a>
                             <ul className="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
                               <li>
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -171,7 +171,7 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a>About</a>
+                            <a href="index.html">About</a>
                             <ul>
                               <li>
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -220,10 +220,10 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a>Shop</a>
+                            <a href="index.html">Shop</a>
                             <ul>
                               <li>
-                                <a>Shop</a>
+                                <a href="index.html">Shop</a>
                               </li>
                               <li>
                                 <a href="shop-grid.html">Shop Grid</a>
@@ -244,7 +244,7 @@ const HomePage = () => {
                                 </a>
                               </li>
                               <li>
-                                <a>
+                                <a href="index.html">
                                   Other Pages{" "}
                                   <span className="float-right">&gt;&gt;</span>
                                 </a>
@@ -281,7 +281,7 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a>News</a>
+                            <a href="index.html">News</a>
                             <ul>
                               <li>
                                 <a href="blog.html">News</a>
@@ -305,10 +305,10 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a>Pages</a>
+                            <a href="index.html">Pages</a>
                             <ul className="mega-menu">
                               <li>
-                                <a>Inner Pages</a>
+                                <a href="index.html">Inner Pages</a>
                                 <ul>
                                   <li>
                                     <a href="portfolio.html">Gallery</a>
@@ -333,7 +333,7 @@ const HomePage = () => {
                                 </ul>
                               </li>
                               <li>
-                                <a>Inner Pages</a>
+                                <a href="index.html">Inner Pages</a>
                                 <ul>
                                   <li>
                                     <a href="history.html">History</a>
@@ -358,7 +358,7 @@ const HomePage = () => {
                                 </ul>
                               </li>
                               <li>
-                                <a>Shop Pages</a>
+                                <a href="index.html">Shop Pages</a>
                                 <ul>
                                   <li>
                                     <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
