@@ -154,19 +154,28 @@ const HomePage = () => {
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   Home Style 01
                                 </a>
-                                <img src="img/home-demos/home-1.jpg" alt="#" />
+                                <img
+                                  src="img/home-demos/home-1.jpg"
+                                  alt="product-details.html"
+                                />
                               </li>
                               <li>
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   Home Style 02
                                 </a>
-                                <img src="img/home-demos/home-2.jpg" alt="#" />
+                                <img
+                                  src="img/home-demos/home-2.jpg"
+                                  alt="product-details.html"
+                                />
                               </li>
                               <li>
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   Home Style 03
                                 </a>
-                                <img src="img/home-demos/home-3.jpg" alt="#" />
+                                <img
+                                  src="img/home-demos/home-3.jpg"
+                                  alt="product-details.html"
+                                />
                               </li>
                             </ul>
                           </li>
@@ -394,7 +403,7 @@ const HomePage = () => {
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   <img
                                     src="img/banner/menu-banner-1.png"
-                                    alt="#"
+                                    alt="product-details.html"
                                   />
                                 </a>
                               </li>
@@ -418,7 +427,11 @@ const HomePage = () => {
                       </div>
                     </div>
                     <div className="header-search-1-form">
-                      <form id="#" method="get" action="#">
+                      <form
+                        id="product-details.html"
+                        method="get"
+                        action="product-details.html"
+                      >
                         <input
                           type="text"
                           name="search"
@@ -499,257 +512,1060 @@ const HomePage = () => {
           </div>
           {/* ltn__header-middle-area end */}
         </header>
-        <>
-          {/* Utilize Cart Menu Start */}
-          <div
-            id="ltn__utilize-cart-menu"
-            className="ltn__utilize ltn__utilize-cart-menu"
-          >
-            <div className="ltn__utilize-menu-inner ltn__scrollbar">
-              <div className="ltn__utilize-menu-head">
-                <span className="ltn__utilize-menu-title">Cart</span>
-                <button className="ltn__utilize-close">×</button>
-              </div>
-              <div className="mini-cart-product-area ltn__scrollbar">
-                <div className="mini-cart-item clearfix">
-                  <div className="mini-cart-img">
-                    <a href="index.html">
-                      <img src="img/product/1.png" alt="achieve" />
-                    </a>
-                    <span className="mini-cart-item-delete">
-                      <i className="icon-cancel" />
-                    </span>
-                  </div>
-                  <div className="mini-cart-info">
-                    <h6>
-                      <a href="index.html">Antiseptic Spray</a>
-                    </h6>
-                    <span className="mini-cart-quantity">1 x $65.00</span>
-                  </div>
+
+        {/* Utilize Cart Menu Start */}
+        <div
+          id="ltn__utilize-cart-menu"
+          className="ltn__utilize ltn__utilize-cart-menu"
+        >
+          <div className="ltn__utilize-menu-inner ltn__scrollbar">
+            <div className="ltn__utilize-menu-head">
+              <span className="ltn__utilize-menu-title">Cart</span>
+              <button className="ltn__utilize-close">×</button>
+            </div>
+            <div className="mini-cart-product-area ltn__scrollbar">
+              <div className="mini-cart-item clearfix">
+                <div className="mini-cart-img">
+                  <a href="index.html">
+                    <img src="img/product/1.png" alt="achieve" />
+                  </a>
+                  <span className="mini-cart-item-delete">
+                    <i className="icon-cancel" />
+                  </span>
                 </div>
-                <div className="mini-cart-item clearfix">
-                  <div className="mini-cart-img">
-                    <a href="index.html">
-                      <img src="img/product/2.png" alt="achieve" />
-                    </a>
-                    <span className="mini-cart-item-delete">
-                      <i className="icon-cancel" />
-                    </span>
-                  </div>
-                  <div className="mini-cart-info">
-                    <h6>
-                      <a href="index.html">Digital Stethoscope</a>
-                    </h6>
-                    <span className="mini-cart-quantity">1 x $85.00</span>
-                  </div>
-                </div>
-                <div className="mini-cart-item clearfix">
-                  <div className="mini-cart-img">
-                    <a href="index.html">
-                      <img src="img/product/3.png" alt="achieve" />
-                    </a>
-                    <span className="mini-cart-item-delete">
-                      <i className="icon-cancel" />
-                    </span>
-                  </div>
-                  <div className="mini-cart-info">
-                    <h6>
-                      <a href="index.html">Cosmetic Containers</a>
-                    </h6>
-                    <span className="mini-cart-quantity">1 x $92.00</span>
-                  </div>
-                </div>
-                <div className="mini-cart-item clearfix">
-                  <div className="mini-cart-img">
-                    <a href="index.html">
-                      <img src="img/product/4.png" alt="achieve" />
-                    </a>
-                    <span className="mini-cart-item-delete">
-                      <i className="icon-cancel" />
-                    </span>
-                  </div>
-                  <div className="mini-cart-info">
-                    <h6>
-                      <a href="index.html">Thermometer Gun</a>
-                    </h6>
-                    <span className="mini-cart-quantity">1 x $68.00</span>
-                  </div>
+                <div className="mini-cart-info">
+                  <h6>
+                    <a href="index.html">Antiseptic Spray</a>
+                  </h6>
+                  <span className="mini-cart-quantity">1 x $65.00</span>
                 </div>
               </div>
-              <div className="mini-cart-footer">
-                <div className="mini-cart-sub-total">
-                  <h5>
-                    Subtotal: <span>$310.00</span>
-                  </h5>
-                </div>
-                <div className="btn-wrapper">
-                  <a
-                    href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
-                    className="theme-btn-1 btn btn-effect-1"
-                  >
-                    View Cart
+              <div className="mini-cart-item clearfix">
+                <div className="mini-cart-img">
+                  <a href="index.html">
+                    <img src="img/product/2.png" alt="achieve" />
                   </a>
-                  <a
-                    href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
-                    className="theme-btn-2 btn btn-effect-2"
-                  >
-                    Checkout
-                  </a>
+                  <span className="mini-cart-item-delete">
+                    <i className="icon-cancel" />
+                  </span>
                 </div>
-                <p>Free Shipping on All Orders Over $100!</p>
+                <div className="mini-cart-info">
+                  <h6>
+                    <a href="index.html">Digital Stethoscope</a>
+                  </h6>
+                  <span className="mini-cart-quantity">1 x $85.00</span>
+                </div>
+              </div>
+              <div className="mini-cart-item clearfix">
+                <div className="mini-cart-img">
+                  <a href="index.html">
+                    <img src="img/product/3.png" alt="achieve" />
+                  </a>
+                  <span className="mini-cart-item-delete">
+                    <i className="icon-cancel" />
+                  </span>
+                </div>
+                <div className="mini-cart-info">
+                  <h6>
+                    <a href="index.html">Cosmetic Containers</a>
+                  </h6>
+                  <span className="mini-cart-quantity">1 x $92.00</span>
+                </div>
+              </div>
+              <div className="mini-cart-item clearfix">
+                <div className="mini-cart-img">
+                  <a href="index.html">
+                    <img src="img/product/4.png" alt="achieve" />
+                  </a>
+                  <span className="mini-cart-item-delete">
+                    <i className="icon-cancel" />
+                  </span>
+                </div>
+                <div className="mini-cart-info">
+                  <h6>
+                    <a href="index.html">Thermometer Gun</a>
+                  </h6>
+                  <span className="mini-cart-quantity">1 x $68.00</span>
+                </div>
+              </div>
+            </div>
+            <div className="mini-cart-footer">
+              <div className="mini-cart-sub-total">
+                <h5>
+                  Subtotal: <span>$310.00</span>
+                </h5>
+              </div>
+              <div className="btn-wrapper">
+                <a
+                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                  className="theme-btn-1 btn btn-effect-1"
+                >
+                  View Cart
+                </a>
+                <a
+                  href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"
+                  className="theme-btn-2 btn btn-effect-2"
+                >
+                  Checkout
+                </a>
+              </div>
+              <p>Free Shipping on All Orders Over $100!</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Utilize Mobile Menu End */}
+        <div className="ltn__utilize-overlay" />
+        {/* SLIDER AREA START (slider-3) */}
+        <div className="ltn__slider-area ltn__slider-3  section-bg-1">
+          <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
+            {/* ltn__slide-item */}
+            <div
+              className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
+              data-bs-bg="assets/img/slider/13.jpg"
+            >
+              <div className="ltn__slide-item-inner  text-left">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12 align-self-center">
+                      <div className="slide-item-info">
+                        <div className="slide-item-info-inner ltn__slide-animation">
+                          <h6 className="slide-sub-title white-color--- animated">
+                            <span>
+                              <i className="fas fa-syringe" />
+                            </span>{" "}
+                            100% genuine Products
+                          </h6>
+                          <h1 className="slide-title animated ">
+                            Get 20% Discount <br />
+                            Of N95 Mask
+                          </h1>
+                          <div className="slide-brief animated">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore.
+                            </p>
+                          </div>
+                          <div className="btn-wrapper animated">
+                            <a
+                              href="index.html"
+                              className="theme-btn-1 btn btn-effect-1"
+                            >
+                              Shop Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ltn__slide-item */}
+            <div
+              className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
+              data-bs-bg="assets/img/slider/11.jpg"
+            >
+              <div className="ltn__slide-item-inner text-center">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12 align-self-center">
+                      <div className="slide-item-info">
+                        <div className="slide-item-info-inner ltn__slide-animation">
+                          <div className="slide-video mb-50 d-none">
+                            <a
+                              className="ltn__video-icon-2 ltn__video-icon-2-border"
+                              href="https://www.youtube.com/embed/tlThdr3O5Qo"
+                              data-rel="lightcase:myCollection"
+                            >
+                              <i className="fa fa-play" />
+                            </a>
+                          </div>
+                          <h6 className="slide-sub-title white-color--- animated">
+                            <span>
+                              <i className="fas fa-syringe" />
+                            </span>{" "}
+                            100% genuine Products
+                          </h6>
+                          <h1 className="slide-title animated ">
+                            Get 20% Discount <br />
+                            Of N95 Mask
+                          </h1>
+                          <div className="slide-brief animated">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore.
+                            </p>
+                          </div>
+                          <div className="btn-wrapper animated">
+                            <a
+                              href="index.html"
+                              className="theme-btn-1 btn btn-effect-1"
+                            >
+                              Shop Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ltn__slide-item */}
+            <div
+              className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
+              data-bs-bg="assets/img/slider/12.jpg"
+            >
+              <div className="ltn__slide-item-inner  text-right text-end">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12 align-self-center">
+                      <div className="slide-item-info">
+                        <div className="slide-item-info-inner ltn__slide-animation">
+                          <h6 className="slide-sub-title white-color--- animated">
+                            <span>
+                              <i className="fas fa-syringe" />
+                            </span>{" "}
+                            100% genuine Products
+                          </h6>
+                          <h1 className="slide-title animated ">
+                            Get 20% Discount <br />
+                            Of N95 Mask
+                          </h1>
+                          <div className="slide-brief animated">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore.
+                            </p>
+                          </div>
+                          <div className="btn-wrapper animated">
+                            <a
+                              href="index.html"
+                              className="theme-btn-1 btn btn-effect-1"
+                            >
+                              Shop Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+          </div>
+        </div>
+        {/* SLIDER AREA END */}
+        {/* Category Starts */}
+        <div className="ltn__category-area section-bg-1-- pt-50 pb-90">
+          <div className="container">
+            <div className="row ltn__category-slider-active-six slick-arrow-1 border-bottom">
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-notes-medical" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Best Deals</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-box-tissue" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Germs Pads</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-pump-medical" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Accessories</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-bong" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Medicine Cap</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-tooth" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Dental Item</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-microscope" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Best Deals</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-syringe" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">All Products</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-stethoscope" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Germs Pads</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-hand-holding-medical" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Accessories</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="ltn__category-item ltn__category-item-6 text-center">
+                  <div className="ltn__category-item-img">
+                    <a href="shop.html">
+                      <i className="fas fa-procedures" />
+                    </a>
+                  </div>
+                  <div className="ltn__category-item-name">
+                    <h6>
+                      <a href="shop.html">Medicine Cap</a>
+                    </h6>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </>
-        <>
-          {/* Utilize Mobile Menu End */}
-          <div className="ltn__utilize-overlay" />
-          {/* SLIDER AREA START (slider-3) */}
-          <div className="ltn__slider-area ltn__slider-3  section-bg-1">
-            <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
-              {/* ltn__slide-item */}
-              <div
-                className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
-                data-bs-bg="img/slider/13.jpg"
-              >
-                <div className="ltn__slide-item-inner  text-left">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-12 align-self-center">
-                        <div className="slide-item-info">
-                          <div className="slide-item-info-inner ltn__slide-animation">
-                            <h6 className="slide-sub-title white-color--- animated">
-                              <span>
-                                <i className="fas fa-syringe" />
-                              </span>{" "}
-                              100% genuine Products
-                            </h6>
-                            <h1 className="slide-title animated ">
-                              Get 20% Discount <br />
-                              Of N95 Mask
-                            </h1>
-                            <div className="slide-brief animated">
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore.
-                              </p>
-                            </div>
-                            <div className="btn-wrapper animated">
-                              <a
-                                href="index.html"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
-                                Shop Now
-                              </a>
-                            </div>
+        </div>
+        {/* Category Ends */}
+        {/* About Us Section */}
+        <div className="ltn__about-us-area pt-25 pb-120 ">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 align-self-center">
+                <div className="about-us-img-wrap about-img-left">
+                  <img src="assets/img/others/9.png" alt="About Us Image" />
+                </div>
+              </div>
+              <div className="col-lg-6 align-self-center">
+                <div className="about-us-info-wrap">
+                  <div className="section-title-area ltn__section-title-2--- mb-30">
+                    <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color d-none">
+                      About Us
+                    </h6>
+                    <h1 className="section-title">
+                      Your faithful partners Medical Goods
+                    </h1>
+                    <p>
+                      Houzez allow you to design unlimited panels and real
+                      estate custom forms to capture leads and keep record of
+                      all information
+                    </p>
+                  </div>
+                  <ul className="ltn__list-item-1 ltn__list-item-1-before--- clearfix">
+                    <li>
+                      <i className="fas fa-check-square" /> Better security for
+                      patient privacy and information.
+                    </li>
+                    <li>
+                      <i className="fas fa-check-square" /> More products at
+                      lower prices.
+                    </li>
+                    <li>
+                      <i className="fas fa-check-square" /> connect customers
+                      with the power of eCommerce at all.
+                    </li>
+                  </ul>
+                  <div className="about-author-info-2 border-top mt-30 pt-20">
+                    <ul>
+                      <li>
+                        <div className="about-author-info-2-brief  d-flex">
+                          <div className="author-img">
+                            <img
+                              src="img/blog/author.jpg"
+                              alt="product-details.html"
+                            />
+                          </div>
+                          <div className="author-name-designation">
+                            <h4 className="mb-0">Jerry Henson</h4>
+                            <small>Medical Specialist</small>
                           </div>
                         </div>
-                      </div>
-                    </div>
+                      </li>
+                      <li>
+                        <div className="about-author-info-2-contact  d-flex">
+                          <div className="about-contact-icon d-flex align-self-center mr-10">
+                            <i className="icon-call" />
+                          </div>
+                          <div className="about-author-info-2-contact-info">
+                            <small>Get Support</small>
+                            <h6 className="mb-0">123-456-789-10</h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              {/* ltn__slide-item */}
-              <div
-                className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
-                data-bs-bg="img/slider/11.jpg"
-              >
-                <div className="ltn__slide-item-inner text-center">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-12 align-self-center">
-                        <div className="slide-item-info">
-                          <div className="slide-item-info-inner ltn__slide-animation">
-                            <div className="slide-video mb-50 d-none">
-                              <a
-                                className="ltn__video-icon-2 ltn__video-icon-2-border"
-                                href="https://www.youtube.com/embed/tlThdr3O5Qo"
-                                data-rel="lightcase:myCollection"
-                              >
-                                <i className="fa fa-play" />
-                              </a>
-                            </div>
-                            <h6 className="slide-sub-title white-color--- animated">
-                              <span>
-                                <i className="fas fa-syringe" />
-                              </span>{" "}
-                              100% genuine Products
-                            </h6>
-                            <h1 className="slide-title animated ">
-                              Get 20% Discount <br />
-                              Of N95 Mask
-                            </h1>
-                            <div className="slide-brief animated">
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore.
-                              </p>
-                            </div>
-                            <div className="btn-wrapper animated">
-                              <a
-                                href="index.html"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
-                                Shop Now
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* ltn__slide-item */}
-              <div
-                className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-achieve bg-overlay-theme-black-60---"
-                data-bs-bg="img/slider/12.jpg"
-              >
-                <div className="ltn__slide-item-inner  text-right text-end">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-12 align-self-center">
-                        <div className="slide-item-info">
-                          <div className="slide-item-info-inner ltn__slide-animation">
-                            <h6 className="slide-sub-title white-color--- animated">
-                              <span>
-                                <i className="fas fa-syringe" />
-                              </span>{" "}
-                              100% genuine Products
-                            </h6>
-                            <h1 className="slide-title animated ">
-                              Get 20% Discount <br />
-                              Of N95 Mask
-                            </h1>
-                            <div className="slide-brief animated">
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore.
-                              </p>
-                            </div>
-                            <div className="btn-wrapper animated">
-                              <a
-                                href="index.html"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
-                                Shop Now
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*  */}
             </div>
           </div>
-          {/* SLIDER AREA END */}
-        </>
+        </div>
+        {/* About Us End */}
+
+        {/* PRODUCT AREA START (product-item-3) */}
+        <div className="ltn__product-area ltn__product-gutter  no-product-ratting pt-85 pb-70">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title-area ltn__section-title-2 text-center">
+                  <h1 className="section-title">Featured Products</h1>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-3">
+                <div className="row">
+                  <div className="col-lg-12 col-sm-6">
+                    <div className="ltn__banner-item">
+                      <div className="ltn__banner-img">
+                        <a href="shop.html">
+                          <img
+                            src="assets/img/banner/11.jpg"
+                            alt="Banner Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-sm-6">
+                    <div className="ltn__banner-item">
+                      <div className="ltn__banner-img">
+                        <a href="shop.html">
+                          <img
+                            src="assets/img/banner/12.jpg"
+                            alt="Banner Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-9">
+                <div className="row ltn__tab-product-slider-one-active--- slick-arrow-1">
+                  {/* ltn__product-item */}
+                  <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
+                    <div className="ltn__product-item ltn__product-item-2 text-left">
+                      <div className="product-img">
+                        <a href="product-details.html">
+                          <img
+                            src="assets/img/product/1.png"
+                            alt="product-details.html"
+                          />
+                        </a>
+                        <div className="product-badge">
+                          <ul>
+                            <li className="sale-badge">New</li>
+                          </ul>
+                        </div>
+                        <div className="product-hover-action">
+                          <ul>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Quick View"
+                                data-bs-toggle="modal"
+                                data-bs-target="#quick_view_modal"
+                              >
+                                <i className="far fa-eye" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Add to Cart"
+                                data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal"
+                              >
+                                <i className="fas fa-shopping-cart" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Wishlist"
+                                data-bs-toggle="modal"
+                                data-bs-target="#liton_wishlist_modal"
+                              >
+                                <i className="far fa-heart" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="product-info">
+                        <div className="product-ratting">
+                          <ul>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star-half-alt" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="far fa-star" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h2 className="product-title">
+                          <a href="product-details.html">Antiseptic Spray</a>
+                        </h2>
+                        <div className="product-price">
+                          <span>$32.00</span>
+                          <del>$46.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ltn__product-item */}
+                  <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
+                    <div className="ltn__product-item ltn__product-item-2 text-left">
+                      <div className="product-img">
+                        <a href="product-details.html">
+                          <img
+                            src="assets/img/product/2.png"
+                            alt="product-details.html"
+                          />
+                        </a>
+                        <div className="product-hover-action">
+                          <ul>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Quick View"
+                                data-bs-toggle="modal"
+                                data-bs-target="#quick_view_modal"
+                              >
+                                <i className="far fa-eye" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Add to Cart"
+                                data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal"
+                              >
+                                <i className="fas fa-shopping-cart" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Wishlist"
+                                data-bs-toggle="modal"
+                                data-bs-target="#liton_wishlist_modal"
+                              >
+                                <i className="far fa-heart" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="product-info">
+                        <div className="product-ratting">
+                          <ul>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star-half-alt" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="far fa-star" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h2 className="product-title">
+                          <a href="product-details.html">Digital Stethoscope</a>
+                        </h2>
+                        <div className="product-price">
+                          <span>$25.00</span>
+                          <del>$35.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ltn__product-item */}
+                  <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
+                    <div className="ltn__product-item ltn__product-item-2 text-left">
+                      <div className="product-img">
+                        <a href="product-details.html">
+                          <img
+                            src="assets/img/product/3.png"
+                            alt="product-details.html"
+                          />
+                        </a>
+                        <div className="product-badge">
+                          <ul>
+                            <li className="sale-badge">New</li>
+                          </ul>
+                        </div>
+                        <div className="product-hover-action">
+                          <ul>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Quick View"
+                                data-bs-toggle="modal"
+                                data-bs-target="#quick_view_modal"
+                              >
+                                <i className="far fa-eye" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Add to Cart"
+                                data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal"
+                              >
+                                <i className="fas fa-shopping-cart" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Wishlist"
+                                data-bs-toggle="modal"
+                                data-bs-target="#liton_wishlist_modal"
+                              >
+                                <i className="far fa-heart" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="product-info">
+                        <div className="product-ratting">
+                          <ul>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star-half-alt" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="far fa-star" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h2 className="product-title">
+                          <a href="product-details.html">Cosmetic Containers</a>
+                        </h2>
+                        <div className="product-price">
+                          <span>$75.00</span>
+                          <del>$92.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ltn__product-item */}
+                  <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
+                    <div className="ltn__product-item ltn__product-item-2 text-left">
+                      <div className="product-img">
+                        <a href="product-details.html">
+                          <img
+                            src="assets/img/product/4.png"
+                            alt="product-details.html"
+                          />
+                        </a>
+                        <div className="product-badge">
+                          <ul>
+                            <li className="sale-badge">New</li>
+                          </ul>
+                        </div>
+                        <div className="product-hover-action">
+                          <ul>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Quick View"
+                                data-bs-toggle="modal"
+                                data-bs-target="#quick_view_modal"
+                              >
+                                <i className="far fa-eye" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Add to Cart"
+                                data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal"
+                              >
+                                <i className="fas fa-shopping-cart" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Wishlist"
+                                data-bs-toggle="modal"
+                                data-bs-target="#liton_wishlist_modal"
+                              >
+                                <i className="far fa-heart" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="product-info">
+                        <div className="product-ratting">
+                          <ul>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star-half-alt" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="far fa-star" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h2 className="product-title">
+                          <a href="product-details.html">Cosmetic Containers</a>
+                        </h2>
+                        <div className="product-price">
+                          <span>$78.00</span>
+                          <del>$85.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ltn__product-item */}
+                  <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
+                    <div className="ltn__product-item ltn__product-item-2 text-left">
+                      <div className="product-img">
+                        <a href="product-details.html">
+                          <img
+                            src="assets/img/product/5.png"
+                            alt="product-details.html"
+                          />
+                        </a>
+                        <div className="product-badge">
+                          <ul>
+                            <li className="sale-badge">New</li>
+                          </ul>
+                        </div>
+                        <div className="product-hover-action">
+                          <ul>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Quick View"
+                                data-bs-toggle="modal"
+                                data-bs-target="#quick_view_modal"
+                              >
+                                <i className="far fa-eye" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Add to Cart"
+                                data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal"
+                              >
+                                <i className="fas fa-shopping-cart" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Wishlist"
+                                data-bs-toggle="modal"
+                                data-bs-target="#liton_wishlist_modal"
+                              >
+                                <i className="far fa-heart" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="product-info">
+                        <div className="product-ratting">
+                          <ul>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star-half-alt" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="far fa-star" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h2 className="product-title">
+                          <a href="product-details.html">Blue Hand Gloves</a>
+                        </h2>
+                        <div className="product-price">
+                          <span>$150.00</span>
+                          <del>$180.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ltn__product-item */}
+                  <div className="col-lg-3--- col-md-4 col-sm-6 col-6">
+                    <div className="ltn__product-item ltn__product-item-2 text-left">
+                      <div className="product-img">
+                        <a href="product-details.html">
+                          <img
+                            src="assets/img/product/6.png"
+                            alt="product-details.html"
+                          />
+                        </a>
+                        <div className="product-badge">
+                          <ul>
+                            <li className="sale-badge">New</li>
+                          </ul>
+                        </div>
+                        <div className="product-hover-action">
+                          <ul>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Quick View"
+                                data-bs-toggle="modal"
+                                data-bs-target="#quick_view_modal"
+                              >
+                                <i className="far fa-eye" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Add to Cart"
+                                data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal"
+                              >
+                                <i className="fas fa-shopping-cart" />
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="product-details.html"
+                                title="Wishlist"
+                                data-bs-toggle="modal"
+                                data-bs-target="#liton_wishlist_modal"
+                              >
+                                <i className="far fa-heart" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="product-info">
+                        <div className="product-ratting">
+                          <ul>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="fas fa-star-half-alt" />
+                              </a>
+                            </li>
+                            <li>
+                              <a href="product-details.html">
+                                <i className="far fa-star" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h2 className="product-title">
+                          <a href="product-details.html">Thermometer Gun</a>
+                        </h2>
+                        <div className="product-price">
+                          <span>$150.00</span>
+                          <del>$180.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/*  */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* PRODUCT AREA END */}
       </div>
     </>
   );
