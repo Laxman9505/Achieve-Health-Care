@@ -42,7 +42,7 @@ const AboutUs = () => {
               <div className="about-us-img-wrap about-img-left">
                 <img
                   src="assets/img/others/about-us.jpg"
-                  alt="About Us Image"
+                  alt="krishna-prasad-paudel"
                 />
               </div>
             </div>
@@ -84,7 +84,10 @@ const AboutUs = () => {
                     <li>
                       <div className="about-author-info-2-brief  d-flex">
                         <div className="author-img">
-                          <img src="assets/img/blog/author.jpg" alt="#" />
+                          <img
+                            src="assets/img/blog/author.jpg"
+                            alt="author-image"
+                          />
                         </div>
                         <div className="author-name-designation">
                           <h4 className="mb-0">Krishna Prasad Paudel</h4>
@@ -128,7 +131,10 @@ const AboutUs = () => {
               <div className="ltn__feature-item ltn__feature-item-6 text-center">
                 <div className="ltn__feature-icon">
                   {/* <span><i class="flaticon-apartment"></i></span> */}
-                  <img src="assets/img/icons/icon-img/24.png" alt="#" />
+                  <img
+                    src="assets/img/icons/icon-img/24.png"
+                    alt="author-image"
+                  />
                 </div>
                 <div className="ltn__feature-info">
                   <h4>
@@ -146,7 +152,10 @@ const AboutUs = () => {
               <div className="ltn__feature-item ltn__feature-item-6 text-center active">
                 <div className="ltn__feature-icon">
                   {/* <span><i class="flaticon-park"></i></span> */}
-                  <img src="assets/img/icons/icon-img/25.png" alt="#" />
+                  <img
+                    src="assets/img/icons/icon-img/25.png"
+                    alt="author-image"
+                  />
                 </div>
                 <div className="ltn__feature-info">
                   <h4>
@@ -164,7 +173,10 @@ const AboutUs = () => {
               <div className="ltn__feature-item ltn__feature-item-6 text-center">
                 <div className="ltn__feature-icon">
                   {/* <span><i class="flaticon-maps-and-location"></i></span> */}
-                  <img src="assets/img/icons/icon-img/26.png" alt="#" />
+                  <img
+                    src="assets/img/icons/icon-img/26.png"
+                    alt="author-image"
+                  />
                 </div>
                 <div className="ltn__feature-info">
                   <h4>
@@ -181,7 +193,10 @@ const AboutUs = () => {
               <div className="ltn__feature-item ltn__feature-item-6 text-center">
                 <div className="ltn__feature-icon">
                   {/* <span><i class="flaticon-excavator"></i></span> */}
-                  <img src="assets/img/icons/icon-img/27.png" alt="#" />
+                  <img
+                    src="assets/img/icons/icon-img/27.png"
+                    alt="author-image"
+                  />
                 </div>
                 <div className="ltn__feature-info">
                   <h4>
@@ -204,7 +219,10 @@ const AboutUs = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="about-us-img-wrap about-img-left">
-                <img src="assets/img/others/ot.png" alt="About Us Image" />
+                <img
+                  src="assets/img/others/ot.png"
+                  alt="doctor-doing-surgery"
+                />
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -284,7 +302,7 @@ const AboutUs = () => {
               <div className="ltn__feature-item ltn__feature-item-7">
                 <div className="ltn__feature-icon-title">
                   <div className="ltn__feature-icon">
-                    {/* <span><img src="img/icons/icon-img/22.png" alt="#"></span> */}
+                    {/* <span><img src="img/icons/icon-img/22.png" alt="author-image"></span> */}
                     <span>
                       <i className="fas fa-microscope" />{" "}
                     </span>
@@ -307,7 +325,7 @@ const AboutUs = () => {
               <div className="ltn__feature-item ltn__feature-item-7">
                 <div className="ltn__feature-icon-title">
                   <div className="ltn__feature-icon">
-                    {/* <span><img src="img/icons/icon-img/23.png" alt="#"></span> */}
+                    {/* <span><img src="img/icons/icon-img/23.png" alt="author-image"></span> */}
                     <span>
                       <i className="fas fa-stethoscope" />{" "}
                     </span>
@@ -344,7 +362,7 @@ const AboutUs = () => {
                 <div className="team-img">
                   <img
                     src="assets/img/team/krishna.png"
-                    alt="Image"
+                    alt="krishna-paudel"
                     style={{ maxHeight: "368px" }}
                   />
                 </div>
@@ -356,17 +374,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -392,17 +410,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -424,17 +442,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -462,17 +480,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -497,17 +515,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -535,17 +553,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -571,17 +589,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -608,17 +626,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
@@ -644,17 +662,17 @@ const AboutUs = () => {
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="index.html">
                           <i className="fab fa-linkedin" />
                         </a>
                       </li>
