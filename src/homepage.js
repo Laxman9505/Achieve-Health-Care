@@ -85,7 +85,7 @@ const HomePage = () => {
           <div className="ltn__header-middle-area ltn__logo-right-menu-option ltn__header-row-bg-white ltn__header-padding ltn__header-sticky ltn__sticky-bg-white">
             <div className="container">
               <div className="row">
-                <div className="col">
+                <div className="col-4">
                   <div className="site-logo-wrap">
                     <div className="site-logo">
                       <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -112,40 +112,464 @@ const HomePage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col header-menu-column menu-color-white---">
+                <div className="col-8 header-menu-column menu-color-white---">
                   <div className="header-menu d-none d-xl-block">
                     <nav>
                       <div className="ltn__main-menu">
                         <ul>
                           <li className="menu-icon">
                             <a href="index.html">Home</a>
-                            <ul className="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
+                          </li>
+
+                          <li className="menu-icon w-30">
+                            <a href="index.html">Products</a>
+                            <ul>
                               <li>
-                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                  Home Style 01
+                                <a href="index.html">
+                                  Surgical Disposable Items
+                                  <span
+                                    className="float-right"
+                                    style={{ marginLeft: "10px" }}
+                                  >
+                                    &gt;
+                                  </span>
                                 </a>
-                                <img
-                                  src="img/home-demos/home-1.jpg"
-                                  alt="product-details.html"
-                                />
+                                <ul>
+                                  <li>
+                                    <Link
+                                      to={"/products?type=surgical-sutures"}
+                                    >
+                                      Surgical Sutures
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </Link>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Absorbable Sutures
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Non Absorbable Sutures
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <Link to={"/products?type=surgical-meshes"}>
+                                      Surgical Meshes
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </Link>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Polypropylene Mesh
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Light Surgical Mesh
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Composite Mesh
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Mesh Fixed Device
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Prolapse Mesh
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <Link
+                                      to={
+                                        "products?type=surgical-stapling-products"
+                                      }
+                                    >
+                                      Surgical Stapling Products
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </Link>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Endoscopic Linear Cutter Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Linear Cutter Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Linear Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Curved Cutting Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Circular Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Hemorrhoids Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Skin Staplers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Ligaton Clips
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Hamelock Clips
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Eurology Products
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Ureteral Stents
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Hydrophilic Guidewire
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Laparoscopic Instruments
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Disposable trocars
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Disposable laparoscopic scissors
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Clip Appliers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Disposable Seisure
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Orthopedic Implants
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Spine Implants
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Trauma Implants
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Maxillofacial Implants
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Electrosurgery Instruments
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Electrosurgical Pencils
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Electrosurgical Plates (Grounding
+                                          Pads)
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Surgical Suction and Drainage
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Wound Drainage Sets
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Yankauer Suction Tips
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Compression Stockings
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Anti-Embolism Stockings
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Varicose Vein Stockings
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
                               </li>
                               <li>
-                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                  Home Style 02
+                                <a href="index.html">
+                                  Equipments and Instruments{" "}
+                                  <span
+                                    className="float-right"
+                                    style={{ marginLeft: "10px" }}
+                                  >
+                                    &gt;
+                                  </span>
                                 </a>
-                                <img
-                                  src="img/home-demos/home-2.jpg"
-                                  alt="product-details.html"
-                                />
+                                <ul>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Hospital Furnitures
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Patient Stretcher
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Emergency stretchers
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Hospital Bed
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Bedside Cabinets
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          ICU beds
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Operating Room Equipment
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                    <ul>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Electric Operating Table
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Manual Operating Table
+                                        </a>
+                                      </li>{" "}
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Delivery Table
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Surgical Table
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          OT Lights
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Laparoscopic Tower And Instruments
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Open Surgery Instruments
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Anesthesia Machine
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                          Electro Surgical Unit
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
                               </li>
                               <li>
-                                <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                  Home Style 03
+                                <a href="index.html">
+                                  Diagnostic Equipments
+                                  <span
+                                    className="float-right"
+                                    style={{ marginLeft: "10px" }}
+                                  >
+                                    &gt;
+                                  </span>
                                 </a>
-                                <img
-                                  src="img/home-demos/home-3.jpg"
-                                  alt="product-details.html"
-                                />
+                                <ul>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      X-ray Machine
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Ultrasound Machine
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                      Labrotary Equpment
+                                      <span
+                                        className="float-right"
+                                        style={{ marginLeft: "10px" }}
+                                      >
+                                        &gt;
+                                      </span>
+                                    </a>
+                                  </li>{" "}
+                                </ul>
                               </li>
                             </ul>
                           </li>
@@ -199,67 +623,6 @@ const HomePage = () => {
                             </ul> */}
                           </li>
                           <li className="menu-icon">
-                            <a href="index.html">Shop</a>
-                            <ul>
-                              <li>
-                                <a href="index.html">Shop</a>
-                              </li>
-                              <li>
-                                <a href="shop-grid.html">Shop Grid</a>
-                              </li>
-                              <li>
-                                <a href="shop-left-sidebar.html">
-                                  Shop Left sidebar
-                                </a>
-                              </li>
-                              <li>
-                                <a href="shop-right-sidebar.html">
-                                  Shop right sidebar
-                                </a>
-                              </li>
-                              <li>
-                                <a href="shop-right-sidebar.html">
-                                  Shop details{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="index.html">
-                                  Other Pages{" "}
-                                  <span className="float-right">&gt;&gt;</span>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Cart
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Wishlist
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="checkout.html">Checkout</a>
-                                  </li>
-                                  <li>
-                                    <a href="order-tracking.html">
-                                      Order Tracking
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="account.html">My Account</a>
-                                  </li>
-                                  <li>
-                                    <a href="login.html">Sign in</a>
-                                  </li>
-                                  <li>
-                                    <a href="register.html">Register</a>
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="menu-icon">
                             <a href="index.html">News</a>
                             <ul>
                               <li>
@@ -284,16 +647,16 @@ const HomePage = () => {
                             </ul>
                           </li>
                           <li className="menu-icon">
-                            <a href="index.html">Pages</a>
+                            <a href="index.html">Products</a>
                             <ul className="mega-menu">
                               <li>
-                                <a href="index.html">Inner Pages</a>
+                                <a href="index.html">Hospital Furnitures</a>
                                 <ul>
                                   <li>
-                                    <a href="portfolio.html">Gallery</a>
+                                    <a href="portfolio.html">ICU Bed</a>
                                   </li>
                                   <li>
-                                    <a href="portfolio-2.html">Gallery - 02</a>
+                                    <a href="portfolio-2.html">OT Table</a>
                                   </li>
                                   <li>
                                     <a href="portfolio-details.html">
@@ -445,7 +808,151 @@ const HomePage = () => {
           {/* ltn__header-middle-area end */}
         </header>
 
-        {/* PRODUCT AREA END */}
+        {/* SLIDER AREA START (slider-3) */}
+        <div className="ltn__slider-area ltn__slider-3  section-bg-1">
+          <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
+            {/* ltn__slide-item */}
+            <div
+              className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60---"
+              data-bs-bg="img/slider/13.jpg"
+            >
+              <div className="ltn__slide-item-inner  text-left">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12 align-self-center">
+                      <div className="slide-item-info">
+                        <div className="slide-item-info-inner ltn__slide-animation">
+                          <h6 className="slide-sub-title white-color--- animated">
+                            <span>
+                              <i className="fas fa-syringe" />
+                            </span>{" "}
+                            100% genuine Products
+                          </h6>
+                          <h1 className="slide-title animated ">
+                            Get 20% Discount <br />
+                            Of N95 Mask
+                          </h1>
+                          <div className="slide-brief animated">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore.
+                            </p>
+                          </div>
+                          <div className="btn-wrapper animated">
+                            <a
+                              href="shop.html"
+                              className="theme-btn-1 btn btn-effect-1"
+                            >
+                              Shop Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ltn__slide-item */}
+            <div
+              className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60---"
+              data-bs-bg="img/slider/11.jpg"
+            >
+              <div className="ltn__slide-item-inner text-center">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12 align-self-center">
+                      <div className="slide-item-info">
+                        <div className="slide-item-info-inner ltn__slide-animation">
+                          <div className="slide-video mb-50 d-none">
+                            <a
+                              className="ltn__video-icon-2 ltn__video-icon-2-border"
+                              href="https://www.youtube.com/embed/tlThdr3O5Qo"
+                              data-rel="lightcase:myCollection"
+                            >
+                              <i className="fa fa-play" />
+                            </a>
+                          </div>
+                          <h6 className="slide-sub-title white-color--- animated">
+                            <span>
+                              <i className="fas fa-syringe" />
+                            </span>{" "}
+                            100% genuine Products
+                          </h6>
+                          <h1 className="slide-title animated ">
+                            Get 20% Discount <br />
+                            Of N95 Mask
+                          </h1>
+                          <div className="slide-brief animated">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore.
+                            </p>
+                          </div>
+                          <div className="btn-wrapper animated">
+                            <a
+                              href="shop.html"
+                              className="theme-btn-1 btn btn-effect-1"
+                            >
+                              Shop Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ltn__slide-item */}
+            <div
+              className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60---"
+              data-bs-bg="img/slider/12.jpg"
+            >
+              <div className="ltn__slide-item-inner  text-right text-end">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12 align-self-center">
+                      <div className="slide-item-info">
+                        <div className="slide-item-info-inner ltn__slide-animation">
+                          <h6 className="slide-sub-title white-color--- animated">
+                            <span>
+                              <i className="fas fa-syringe" />
+                            </span>{" "}
+                            100% genuine Products
+                          </h6>
+                          <h1 className="slide-title animated ">
+                            Get 20% Discount <br />
+                            Of N95 Mask
+                          </h1>
+                          <div className="slide-brief animated">
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit, sed do eiusmod tempor incididunt
+                              ut labore.
+                            </p>
+                          </div>
+                          <div className="btn-wrapper animated">
+                            <a
+                              href="shop.html"
+                              className="theme-btn-1 btn btn-effect-1"
+                            >
+                              Shop Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+          </div>
+        </div>
+        {/* SLIDER AREA END */}
       </div>
     </>
   );

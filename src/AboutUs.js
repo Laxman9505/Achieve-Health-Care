@@ -681,6 +681,42 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="ltn__team-item ltn__team-item-3--- shadow-sm">
+                <div className="team-img">
+                  <img
+                    src="assets/img/team/ganesh-shrestha.png"
+                    style={{ maxHeight: "368px" }}
+                    alt="Image"
+                  />
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <a href="team-details.html">Sadhananda Padhya</a>
+                  </h4>
+                  <h6 className="ltn__secondary-color">Marketing Manager</h6>
+                  <div className="ltn__social-media">
+                    <ul>
+                      <li>
+                        <a href="index.html">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="index.html">
+                          <i className="fab fa-twitter" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="index.html">
+                          <i className="fab fa-linkedin" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "name": "Surgical Disposable Items",
+      "type": "surgical-disposables",
+      "subCategories": [
+        {
+          "name": "Surgical Sutures",
+          "type": "surgical-sutures",
+          "products": [
+            {
+              "name": "Absorbable Sutures",
+              "type": "absorbable-sutures",
+              "image": "assets/img/product/surgical-suture/absorbable.png"
+            },
+            {
+              "name": "Non Absorbable Sutures",
+              "type": "non-absorbable-sutures",
+              "image": "assets/img/product/surgical-suture/non-absorbable.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Meshes",
+          "type": "surgical-meshes",
+          "products": [
+            {
+              "name": "Polypropylene Mesh",
+              "type": "polypropylene-mesh",
+              "image": "assets/img/product/surgical-meshes/polypropylene-mesh.png"
+            },
+            {
+              "name": "Light Surgical Mesh",
+              "type": "light-surgical-mesh",
+              "image": "assets/img/product/surgical-meshes/light-surgical-mesh.png"
+            },
+            {
+              "name": "Composite Mesh",
+              "type": "composite-mesh",
+              "image": "assets/img/product/surgical-meshes/composite-mesh.png"
+            },
+            {
+              "name": "Mesh Fixed Device",
+              "type": "mesh-fixed-device",
+              "image": "assets/img/product/surgical-meshes/mesh-fixed-device.png"
+            },
+            {
+              "name": "SVT Prolapse Mesh",
+              "type": "prolapse-mesh",
+              "image": "assets/img/product/surgical-meshes/prolapse-mesh.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Stapling Products",
+          "type": "surgical-stapling-products",
+          "image": "path/to/surgical-stapling-products-image.jpg",
+          "products": [
+            {
+              "name": "Endoscopic Linear Cutter Staplers",
+              "type": "endoscopic-linear-cutter-staplers",
+              "image": "assets/img/product/surgical-stapling-products/endoscopic-linear-cutter-staplers.png"
+            },
+            {
+              "name": "Linear Cutter Staplers And Reload",
+              "type": "linear-cutter-staplers",
+              "image": "assets/img/product/surgical-stapling-products/linear-cutter-staplers.png"
+            },
+            {
+              "name": "Linear Staplers",
+              "type": "linear-staplers",
+              "image": "assets/img/product/surgical-stapling-products/linear-staplers.png"
+            },
+            {
+              "name": "Curved Cutting Staplers",
+              "type": "curved-cutting-staplers",
+              "image": "assets/img/product/surgical-stapling-products/curved-cutting-staplers.png"
+            },
+            {
+              "name": "Circular Staplers",
+              "type": "circular-staplers",
+              "image": "assets/img/product/surgical-stapling-products/circular-staplers.png"
+            },
+            {
+              "name": "Hemorrhoids Staplers",
+              "type": "hemorrhoids-staplers",
+              "image": "assets/img/product/surgical-stapling-products/hemorrhoids-staplers.png"
+            },
+            {
+              "name": "Skin Staplers",
+              "type": "skin-staplers",
+              "image": "assets/img/product/surgical-stapling-products/skin-staplers.png"
+            },
+            {
+              "name": "Ligation Clips",
+              "type": "ligation-clips",
+              "image": "assets/img/product/surgical-stapling-products/ligation-clips.png"
+            },
+            {
+              "name": "Hemolock Clips",
+              "type": "hemolock-clips",
+              "image": "assets/img/product/surgical-stapling-products/prolapse-mesh.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eurology Products",
+      "type": "eurology-products",
+      "subCategories": [
+        {
+          "name": "Ureteral Stents",
+          "type": "ureteral-stents",
+          "image": "assets/eurology-products/ureteral-stents.jpg"
+        },
+        {
+          "name": "Hydrophilic Guidewire",
+          "type": "hydrophilic-guidewire",
+          "image": "assets/eurology-products/hydrophilic-guidewire.jpg"
+        }
+      ]
+    }
+  ]
+}
