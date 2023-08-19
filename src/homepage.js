@@ -261,7 +261,9 @@ const HomePage = () => {
                                     </ul>
                                   </li>
                                   <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link
+                                      to={"products?type=eurology-products"}
+                                    >
                                       Eurology Products
                                       <span
                                         className="float-right"
@@ -269,7 +271,7 @@ const HomePage = () => {
                                       >
                                         &gt;
                                       </span>
-                                    </a>
+                                    </Link>
                                     <ul>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -284,7 +286,11 @@ const HomePage = () => {
                                     </ul>
                                   </li>
                                   <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link
+                                      to={
+                                        "/products?type=laparoscopic-instruments"
+                                      }
+                                    >
                                       Laparoscopic Instruments
                                       <span
                                         className="float-right"
@@ -292,7 +298,7 @@ const HomePage = () => {
                                       >
                                         &gt;
                                       </span>
-                                    </a>
+                                    </Link>
                                     <ul>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -311,13 +317,15 @@ const HomePage = () => {
                                       </li>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                          Disposable Seisure
+                                          Disposable Laparoscopic Merryland
                                         </a>
                                       </li>
                                     </ul>
                                   </li>
                                   <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link
+                                      to={"/products?type=orthopedic-implants"}
+                                    >
                                       Orthopedic Implants
                                       <span
                                         className="float-right"
@@ -325,7 +333,7 @@ const HomePage = () => {
                                       >
                                         &gt;
                                       </span>
-                                    </a>
+                                    </Link>
                                     <ul>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -345,7 +353,11 @@ const HomePage = () => {
                                     </ul>
                                   </li>
                                   <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link
+                                      to={
+                                        "/products?type=electrosurgery-instruments"
+                                      }
+                                    >
                                       Electrosurgery Instruments
                                       <span
                                         className="float-right"
@@ -353,7 +365,7 @@ const HomePage = () => {
                                       >
                                         &gt;
                                       </span>
-                                    </a>
+                                    </Link>
                                     <ul>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -369,7 +381,11 @@ const HomePage = () => {
                                     </ul>
                                   </li>
                                   <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link
+                                      to={
+                                        "/products?type=surgical-suction-and-drainage"
+                                      }
+                                    >
                                       Surgical Suction and Drainage
                                       <span
                                         className="float-right"
@@ -377,7 +393,7 @@ const HomePage = () => {
                                       >
                                         &gt;
                                       </span>
-                                    </a>
+                                    </Link>
                                     <ul>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
@@ -392,7 +408,11 @@ const HomePage = () => {
                                     </ul>
                                   </li>
                                   <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                    <Link
+                                      to={
+                                        "/products?type=compression-stockings"
+                                      }
+                                    >
                                       Compression Stockings
                                       <span
                                         className="float-right"
@@ -400,7 +420,7 @@ const HomePage = () => {
                                       >
                                         &gt;
                                       </span>
-                                    </a>
+                                    </Link>
                                     <ul>
                                       <li>
                                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">

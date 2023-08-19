@@ -99,7 +99,119 @@
             {
               "name": "Hemolock Clips",
               "type": "hemolock-clips",
-              "image": "assets/img/product/surgical-stapling-products/prolapse-mesh.png"
+              "image": "assets/img/product/surgical-stapling-products/hemolock-clips.png"
+            }
+          ]
+        },
+        {
+          "name": "Eurology Products",
+          "type": "eurology-products",
+          "products": [
+            {
+              "name": "Ureteral Stents",
+              "type": "ureteral-stents",
+              "image": "assets/img/product/urology-products/ureteral-stents.png"
+            },
+
+            {
+              "name": "Hydrophilic Guidewire",
+              "type": "hydrophilic-guidewire",
+              "image": "assets/img/product/urology-products/hydrophilic-guidewire.png"
+            }
+          ]
+        },
+        {
+          "name": "Laparoscopic Instruments",
+          "type": "laparoscopic-instruments",
+          "products": [
+            {
+              "name": "Disposable Trocars",
+              "type": "disposable-trocars",
+              "image": "assets/img/product/laparoscopic-instruments/disposable-trocars.png"
+            },
+            {
+              "name": "Disposable Laparoscopic Scissors",
+              "type": "disposable-laparoscopic-scissors",
+              "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-scissors.png"
+            },
+            {
+              "name": "Clip Appliers",
+              "type": "clip-appliers",
+              "image": "assets/img/product/laparoscopic-instruments/clip-appliers.png"
+            },
+            {
+              "name": "Disposable Laparoscopic Merryland",
+              "type": "disposable-laparoscopic-merryland",
+              "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-merryland.png"
+            }
+          ]
+        },
+        {
+          "name": "Orthopedic Implants",
+          "type": "orthopedic-implants",
+          "products": [
+            {
+              "name": "Spine Implants",
+              "type": "spine-implants",
+              "image": "assets/img/product/orthopedic-implants/spine-implants.png"
+            },
+            {
+              "name": "Trauma Implants",
+              "type": "trauma-implants",
+              "image": "assets/img/product/orthopedic-implants/trauma-implants.png"
+            },
+            {
+              "name": "Maxillofacial Implants",
+              "type": "maxillofacial-implants",
+              "image": "assets/img/product/orthopedic-implants/maxillofacial-implants.png"
+            }
+          ]
+        },
+        {
+          "name": "Electrosurgery Instruments",
+          "type": "electrosurgery-instruments",
+          "products": [
+            {
+              "name": "Electrosurgical Pencils",
+              "type": "electrosurgical-pencils",
+              "image": "assets/img/product/electrosurgery-instruments/electrosurgical-pencils.png"
+            },
+            {
+              "name": "Electrosurgical Plates",
+              "type": "electrosurgical-plates",
+              "image": "assets/img/product/electrosurgery-instruments/electrosurgical-plates.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Suction and Drainage",
+          "type": "surgical-suction-and-drainage",
+          "products": [
+            {
+              "name": "Wound Drainage Sets",
+              "type": "wound-drainage-sets",
+              "image": "assets/img/product/surgical-suction-and-drainage/wound-drainage-sets.png"
+            },
+            {
+              "name": "Yankauer Suction Tips",
+              "type": "yankauer-suction-tips",
+              "image": "assets/img/product/surgical-suction-and-drainage/yankauer-suction-tips.png"
+            }
+          ]
+        },
+        {
+          "name": "Compression Stockings",
+          "type": "compression-stockings",
+          "products": [
+            {
+              "name": "Anti-Embolism Stockings",
+              "type": "anti-embolism-stockings",
+              "image": "assets/img/product/compression-stockings/anti-embolism-stockings.png"
+            },
+            {
+              "name": "Varicose Vein Stockings",
+              "type": "varicose-vein-stockings",
+              "image": "assets/img/product/compression-stockings/varicose-vein-stockings.png"
             }
           ]
         }
