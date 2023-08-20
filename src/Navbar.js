@@ -80,7 +80,7 @@ const Navbar = () => {
                       </li>
 
                       <li className="menu-icon w-30">
-                        <a href="index.html">Products</a>
+                        <Link to={"/all-products"}>Products</Link>
                         <ul>
                           <li>
                             <a href="index.html">
@@ -96,63 +96,12 @@ const Navbar = () => {
                               <li>
                                 <Link to={"/products?type=surgical-sutures"}>
                                   Surgical Sutures
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Absorbable Sutures
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Non Absorbable Sutures
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link to={"/products?type=surgical-meshes"}>
                                   Surgical Meshes
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Polypropylene Mesh
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Light Surgical Mesh
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Composite Mesh
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Mesh Fixed Device
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Prolapse Mesh
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link
@@ -161,146 +110,24 @@ const Navbar = () => {
                                   }
                                 >
                                   Surgical Stapling Products
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Endoscopic Linear Cutter Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Linear Cutter Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Linear Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Curved Cutting Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Circular Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Hemorrhoids Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Skin Staplers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Ligaton Clips
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Hamelock Clips
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link to={"products?type=eurology-products"}>
                                   Eurology Products
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Ureteral Stents
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Hydrophilic Guidewire
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link
                                   to={"/products?type=laparoscopic-instruments"}
                                 >
                                   Laparoscopic Instruments
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Disposable trocars
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Disposable laparoscopic scissors
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Clip Appliers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Disposable Laparoscopic Merryland
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link to={"/products?type=orthopedic-implants"}>
                                   Orthopedic Implants
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Spine Implants
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Trauma Implants
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Maxillofacial Implants
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link
@@ -309,25 +136,7 @@ const Navbar = () => {
                                   }
                                 >
                                   Electrosurgery Instruments
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Electrosurgical Pencils
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Electrosurgical Plates (Grounding Pads)
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link
@@ -336,50 +145,14 @@ const Navbar = () => {
                                   }
                                 >
                                   Surgical Suction and Drainage
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Wound Drainage Sets
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Yankauer Suction Tips
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <Link
                                   to={"/products?type=compression-stockings"}
                                 >
                                   Compression Stockings
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </Link>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Anti-Embolism Stockings
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Varicose Vein Stockings
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                             </ul>
                           </li>
@@ -397,98 +170,12 @@ const Navbar = () => {
                               <li>
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   Hospital Furnitures
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </a>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Patient Stretcher
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Emergency stretchers
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Hospital Bed
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Bedside Cabinets
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      ICU beds
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
                                   Operating Room Equipment
-                                  <span
-                                    className="float-right"
-                                    style={{ marginLeft: "10px" }}
-                                  >
-                                    &gt;
-                                  </span>
                                 </a>
-                                <ul>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Electric Operating Table
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Manual Operating Table
-                                    </a>
-                                  </li>{" "}
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Delivery Table
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Surgical Table
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      OT Lights
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Laparoscopic Tower And Instruments
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Open Surgery Instruments
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Anesthesia Machine
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                      Electro Surgical Unit
-                                    </a>
-                                  </li>
-                                </ul>
                               </li>
                             </ul>
                           </li>

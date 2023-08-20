@@ -3,6 +3,7 @@
 import { Image } from "antd";
 import React from "react";
 import { useLocation } from "react-router-dom";
+import Layout from "./Layout";
 import productsData from "./products.json"; // Assuming products.json is in the same directory
 
 const Products = () => {
@@ -20,8 +21,8 @@ const Products = () => {
   }
   console.log("selected sub", selectedSubCategory);
   return (
-    <div>
-      <div className="ltn__product-area ltn__product-gutter  no-product-ratting pt-115 pb-70---">
+    <Layout>
+      <div className="ltn__product-area ltn__product-gutter  no-product-ratting pt-50 pb-70---">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -60,7 +61,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 

@@ -34,3 +34,8 @@
 .footer-widget {
   margin-bottom: 0px !important;
 }
+@media (max-width: 1599px) {
+  .ltn__section-title-2 .section-title {
+    font-size: 45px !important;
+  }
+}
