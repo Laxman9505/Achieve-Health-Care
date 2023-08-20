@@ -7,6 +7,7 @@
         {
           "name": "Surgical Sutures",
           "type": "surgical-sutures",
+          "icon": "fas fa-syringe",
           "products": [
             {
               "name": "Absorbable Sutures",
@@ -23,6 +24,7 @@
         {
           "name": "Surgical Meshes",
           "type": "surgical-meshes",
+          "icon": "fas fa-th-large",
           "products": [
             {
               "name": "Polypropylene Mesh",
@@ -54,6 +56,7 @@
         {
           "name": "Surgical Stapling Products",
           "type": "surgical-stapling-products",
+          "icon": "fas fa-stapler",
           "image": "path/to/surgical-stapling-products-image.jpg",
           "products": [
             {
@@ -106,6 +109,7 @@
         {
           "name": "Eurology Products",
           "type": "eurology-products",
+          "icon": "fas fa-toilet",
           "products": [
             {
               "name": "Ureteral Stents",
@@ -123,6 +127,7 @@
         {
           "name": "Laparoscopic Instruments",
           "type": "laparoscopic-instruments",
+          "icon": "fas fa-microscope",
           "products": [
             {
               "name": "Disposable Trocars",
@@ -149,6 +154,7 @@
         {
           "name": "Orthopedic Implants",
           "type": "orthopedic-implants",
+          "icon": "fas fa-bone",
           "products": [
             {
               "name": "Spine Implants",
@@ -170,6 +176,7 @@
         {
           "name": "Electrosurgery Instruments",
           "type": "electrosurgery-instruments",
+          "icon": "fas fa-bolt",
           "products": [
             {
               "name": "Electrosurgical Pencils",
@@ -186,6 +193,7 @@
         {
           "name": "Surgical Suction and Drainage",
           "type": "surgical-suction-and-drainage",
+          "icon": "fas fa-battery-three-quarters",
           "products": [
             {
               "name": "Wound Drainage Sets",
@@ -202,6 +210,7 @@
         {
           "name": "Compression Stockings",
           "type": "compression-stockings",
+          "icon": "fas fa-compress",
           "products": [
             {
               "name": "Anti-Embolism Stockings",
@@ -218,18 +227,92 @@
       ]
     },
     {
-      "name": "Eurology Products",
-      "type": "eurology-products",
+      "name": "Equipments and Instruments",
+      "type": "equipments-and-instruments",
       "subCategories": [
         {
-          "name": "Ureteral Stents",
-          "type": "ureteral-stents",
-          "image": "assets/eurology-products/ureteral-stents.jpg"
+          "name": "Hospital Furnitures",
+          "icon": "fas fa-bed",
+          "type": "hospital-furnitures",
+          "products": [
+            {
+              "name": "Patient Stretcher",
+              "type": "patient-stretcher",
+              "image": "assets/img/products/patient-stretcher.png"
+            },
+            {
+              "name": "Emergency stretchers",
+              "type": "emergency-stretchers",
+              "image": "assets/img/products/emergency-stretchers.png"
+            },
+            {
+              "name": "Hospital Bed",
+              "type": "hospital-bed",
+              "image": "assets/img/products/hospital-bed.png"
+            },
+            {
+              "name": "Bedside Cabinets",
+              "type": "bedside-cabinets",
+              "image": "assets/img/products/bedside-cabinets.png"
+            },
+            {
+              "name": "ICU beds",
+              "type": "icu-beds",
+              "image": "assets/img/products/icu-beds.png"
+            }
+          ]
         },
         {
-          "name": "Hydrophilic Guidewire",
-          "type": "hydrophilic-guidewire",
-          "image": "assets/eurology-products/hydrophilic-guidewire.jpg"
+          "name": "Operating Room Equipment",
+          "icon": "fas fa-hospital",
+          "type": "operating-room-equipment",
+          "products": [
+            {
+              "name": "Electric Operating Table",
+              "type": "electric-operating-table",
+              "image": "assets/img/products/electric-operating-table.png"
+            },
+            {
+              "name": "Manual Operating Table",
+              "type": "manual-operating-table",
+              "image": "assets/img/products/manual-operating-table.png"
+            },
+            {
+              "name": "Delivery Table",
+              "type": "delivery-table",
+              "image": "assets/img/products/delivery-table.png"
+            },
+            {
+              "name": "Surgical Table",
+              "type": "surgical-table",
+              "image": "assets/img/products/surgical-table.png"
+            },
+            {
+              "name": "OT Lights",
+              "type": "ot-lights",
+              "image": "assets/img/products/ot-lights.png"
+            },
+            {
+              "name": "Laparoscopic Tower And Instruments",
+              "type": "laparoscopic-tower-instruments",
+              "image": "assets/img/products/laparoscopic-tower-instruments.png"
+            },
+            {
+              "name": "Open Surgery Instruments",
+              "type": "open-surgery-instruments",
+              "image": "assets/img/products/open-surgery-instruments.png"
+            },
+            {
+              "name": "Anesthesia Machine",
+              "type": "anesthesia-machine",
+              "image": "assets/img/products/anesthesia-machine.png"
+            },
+            {
+              "name": "Electro Surgical Unit",
+              "type": "electro-surgical-unit",
+              "image": "assets/img/products/electro-surgical-unit.png"
+            }
+          ]
         }
       ]
     }

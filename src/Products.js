@@ -33,9 +33,9 @@ const Products = () => {
           <div className="row ltn__tab-product-slider-one-active--- slick-arrow-1">
             {/* ltn__product-item */}
 
-            {selectedSubCategory?.products?.map((item) => {
+            {selectedSubCategory?.products?.map((item, index) => {
               return (
-                <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6" key={index}>
                   <div className="ltn__product-item ltn__product-item-3 text-center">
                     <div className="product-img">
                       <div>

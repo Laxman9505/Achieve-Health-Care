@@ -3,6 +3,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutUs from "./AboutUs";
+import "./App.css";
 import Products from "./Products";
 import HomePage from "./homepage";
 
