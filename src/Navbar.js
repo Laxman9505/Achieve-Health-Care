@@ -113,8 +113,8 @@ const Navbar = () => {
                                 </Link>
                               </li>
                               <li>
-                                <Link to={"products?type=eurology-products"}>
-                                  Eurology Products
+                                <Link to={"products?type=Urology-products"}>
+                                  Urology Products
                                 </Link>
                               </li>
                               <li>

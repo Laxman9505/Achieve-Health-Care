@@ -111,7 +111,7 @@ const AboutUs = () => {
                   </div>
                   <div className="ltn__feature-info">
                     <h4>
-                      <a href="service-details.html">Free Delivery</a>
+                      <a href="service-details.html">Free Service</a>
                     </h4>
                     <p>
                       Experience the convenience of free delivery on all your
@@ -156,8 +156,9 @@ const AboutUs = () => {
                       <a href="service-details.html">Quality Product</a>
                     </h4>
                     <p>
-                      Your well-being is our top priority. We are committed to
-                      providing you with only the highest quality products.
+                      We are dedicated to your well-being, and we take pride in
+                      offering you FDA-certified and ISO-certified products of
+                      the highest quality.
                     </p>
                   </div>
                 </div>
@@ -209,8 +210,6 @@ const AboutUs = () => {
                       Amid the challenges of Nepal's uncertain times, where
                       people are moving to cities and other countries for jobs
                       and education, the importance of good health is growing.
-                      In Nepal, there are about 60 major hospitals that focus on
-                      surgeries, especially in cities.
                     </p>
 
                     <p>
@@ -221,8 +220,8 @@ const AboutUs = () => {
                       important tools for surgeries, like instruments and
                       equipment, as well as products to close wounds. Our
                       journey started with a strong focus on disposable surgical
-                      items, showing our dedication to making healthcare better
-                      for everyone.
+                      items and diagnostic equipments, showing our dedication to
+                      making healthcare better for everyone.
                     </p>
                     <p>
                       From a small partnership to our own business, we've come a
@@ -301,20 +300,20 @@ const AboutUs = () => {
                     <div className="ltn__feature-icon">
                       {/* <span><img src="img/icons/icon-img/23.png" alt="author-image"></span> */}
                       <span>
-                        <i className="fas fa-stethoscope" />{" "}
+                        <i className="fas fa-hospital" />{" "}
                       </span>
                     </div>
                     <h3>
                       <a href="service-details.html">
-                        Patient-Centric Approach
+                        Comprehensive Hospital Solutions
                       </a>
                     </h3>
                   </div>
                   <div className="ltn__feature-info">
                     <p>
-                      From pre-operative consultations to post-operative
-                      recovery, our patient-centric focus guides every step of
-                      your experienc
+                      Your Complete Hospital Solutions Provider: Offering a
+                      comprehensive range of products and services to meet all
+                      your hospital needs.
                     </p>
                   </div>
                 </div>

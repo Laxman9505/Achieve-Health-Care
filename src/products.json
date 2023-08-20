@@ -1,232 +1,6 @@
 {
   "categories": [
     {
-      "name": "Surgical Disposable Items",
-      "type": "surgical-disposables",
-      "subCategories": [
-        {
-          "name": "Surgical Sutures",
-          "type": "surgical-sutures",
-          "icon": "fas fa-syringe",
-          "products": [
-            {
-              "name": "Absorbable Sutures",
-              "type": "absorbable-sutures",
-              "image": "assets/img/product/surgical-suture/absorbable.png"
-            },
-            {
-              "name": "Non Absorbable Sutures",
-              "type": "non-absorbable-sutures",
-              "image": "assets/img/product/surgical-suture/non-absorbable.png"
-            }
-          ]
-        },
-        {
-          "name": "Surgical Meshes",
-          "type": "surgical-meshes",
-          "icon": "fas fa-th-large",
-          "products": [
-            {
-              "name": "Polypropylene Mesh",
-              "type": "polypropylene-mesh",
-              "image": "assets/img/product/surgical-meshes/polypropylene-mesh.png"
-            },
-            {
-              "name": "Light Surgical Mesh",
-              "type": "light-surgical-mesh",
-              "image": "assets/img/product/surgical-meshes/light-surgical-mesh.png"
-            },
-            {
-              "name": "Composite Mesh",
-              "type": "composite-mesh",
-              "image": "assets/img/product/surgical-meshes/composite-mesh.png"
-            },
-            {
-              "name": "Mesh Fixed Device",
-              "type": "mesh-fixed-device",
-              "image": "assets/img/product/surgical-meshes/mesh-fixed-device.png"
-            },
-            {
-              "name": "SVT Prolapse Mesh",
-              "type": "prolapse-mesh",
-              "image": "assets/img/product/surgical-meshes/prolapse-mesh.png"
-            }
-          ]
-        },
-        {
-          "name": "Surgical Stapling Products",
-          "type": "surgical-stapling-products",
-          "icon": "fas fa-stapler",
-          "image": "path/to/surgical-stapling-products-image.jpg",
-          "products": [
-            {
-              "name": "Endoscopic Linear Cutter Staplers",
-              "type": "endoscopic-linear-cutter-staplers",
-              "image": "assets/img/product/surgical-stapling-products/endoscopic-linear-cutter-staplers.png"
-            },
-            {
-              "name": "Linear Cutter Staplers And Reload",
-              "type": "linear-cutter-staplers",
-              "image": "assets/img/product/surgical-stapling-products/linear-cutter-staplers.png"
-            },
-            {
-              "name": "Linear Staplers",
-              "type": "linear-staplers",
-              "image": "assets/img/product/surgical-stapling-products/linear-staplers.png"
-            },
-            {
-              "name": "Curved Cutting Staplers",
-              "type": "curved-cutting-staplers",
-              "image": "assets/img/product/surgical-stapling-products/curved-cutting-staplers.png"
-            },
-            {
-              "name": "Circular Staplers",
-              "type": "circular-staplers",
-              "image": "assets/img/product/surgical-stapling-products/circular-staplers.png"
-            },
-            {
-              "name": "Hemorrhoids Staplers",
-              "type": "hemorrhoids-staplers",
-              "image": "assets/img/product/surgical-stapling-products/hemorrhoids-staplers.png"
-            },
-            {
-              "name": "Skin Staplers",
-              "type": "skin-staplers",
-              "image": "assets/img/product/surgical-stapling-products/skin-staplers.png"
-            },
-            {
-              "name": "Ligation Clips",
-              "type": "ligation-clips",
-              "image": "assets/img/product/surgical-stapling-products/ligation-clips.png"
-            },
-            {
-              "name": "Hemolock Clips",
-              "type": "hemolock-clips",
-              "image": "assets/img/product/surgical-stapling-products/hemolock-clips.png"
-            }
-          ]
-        },
-        {
-          "name": "Eurology Products",
-          "type": "eurology-products",
-          "icon": "fas fa-toilet",
-          "products": [
-            {
-              "name": "Ureteral Stents",
-              "type": "ureteral-stents",
-              "image": "assets/img/product/urology-products/ureteral-stents.png"
-            },
-
-            {
-              "name": "Hydrophilic Guidewire",
-              "type": "hydrophilic-guidewire",
-              "image": "assets/img/product/urology-products/hydrophilic-guidewire.png"
-            }
-          ]
-        },
-        {
-          "name": "Laparoscopic Instruments",
-          "type": "laparoscopic-instruments",
-          "icon": "fas fa-microscope",
-          "products": [
-            {
-              "name": "Disposable Trocars",
-              "type": "disposable-trocars",
-              "image": "assets/img/product/laparoscopic-instruments/disposable-trocars.png"
-            },
-            {
-              "name": "Disposable Laparoscopic Scissors",
-              "type": "disposable-laparoscopic-scissors",
-              "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-scissors.png"
-            },
-            {
-              "name": "Clip Appliers",
-              "type": "clip-appliers",
-              "image": "assets/img/product/laparoscopic-instruments/clip-appliers.png"
-            },
-            {
-              "name": "Disposable Laparoscopic Merryland",
-              "type": "disposable-laparoscopic-merryland",
-              "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-merryland.png"
-            }
-          ]
-        },
-        {
-          "name": "Orthopedic Implants",
-          "type": "orthopedic-implants",
-          "icon": "fas fa-bone",
-          "products": [
-            {
-              "name": "Spine Implants",
-              "type": "spine-implants",
-              "image": "assets/img/product/orthopedic-implants/spine-implants.png"
-            },
-            {
-              "name": "Trauma Implants",
-              "type": "trauma-implants",
-              "image": "assets/img/product/orthopedic-implants/trauma-implants.png"
-            },
-            {
-              "name": "Maxillofacial Implants",
-              "type": "maxillofacial-implants",
-              "image": "assets/img/product/orthopedic-implants/maxillofacial-implants.png"
-            }
-          ]
-        },
-        {
-          "name": "Electrosurgery Instruments",
-          "type": "electrosurgery-instruments",
-          "icon": "fas fa-bolt",
-          "products": [
-            {
-              "name": "Electrosurgical Pencils",
-              "type": "electrosurgical-pencils",
-              "image": "assets/img/product/electrosurgery-instruments/electrosurgical-pencils.png"
-            },
-            {
-              "name": "Electrosurgical Plates",
-              "type": "electrosurgical-plates",
-              "image": "assets/img/product/electrosurgery-instruments/electrosurgical-plates.png"
-            }
-          ]
-        },
-        {
-          "name": "Surgical Suction and Drainage",
-          "type": "surgical-suction-and-drainage",
-          "icon": "fas fa-battery-three-quarters",
-          "products": [
-            {
-              "name": "Wound Drainage Sets",
-              "type": "wound-drainage-sets",
-              "image": "assets/img/product/surgical-suction-and-drainage/wound-drainage-sets.png"
-            },
-            {
-              "name": "Yankauer Suction Tips",
-              "type": "yankauer-suction-tips",
-              "image": "assets/img/product/surgical-suction-and-drainage/yankauer-suction-tips.png"
-            }
-          ]
-        },
-        {
-          "name": "Compression Stockings",
-          "type": "compression-stockings",
-          "icon": "fas fa-compress",
-          "products": [
-            {
-              "name": "Anti-Embolism Stockings",
-              "type": "anti-embolism-stockings",
-              "image": "assets/img/product/compression-stockings/anti-embolism-stockings.png"
-            },
-            {
-              "name": "Varicose Vein Stockings",
-              "type": "varicose-vein-stockings",
-              "image": "assets/img/product/compression-stockings/varicose-vein-stockings.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Equipments and Instruments",
       "type": "equipments-and-instruments",
       "subCategories": [
@@ -311,6 +85,235 @@
               "name": "Electro Surgical Unit",
               "type": "electro-surgical-unit",
               "image": "assets/img/products/electro-surgical-unit.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Surgical Disposable Items",
+      "type": "surgical-disposables",
+      "subCategories": [
+        {
+          "name": "Surgical Stapling Products",
+          "type": "surgical-stapling-products",
+          "icon": "fas fa-stapler",
+          "image": "path/to/surgical-stapling-products-image.jpg",
+          "products": [
+            {
+              "name": "Endoscopic Linear Cutter Staplers",
+              "type": "endoscopic-linear-cutter-staplers",
+              "image": "assets/img/product/surgical-stapling-products/endoscopic-linear-cutter-staplers.png"
+            },
+            {
+              "name": "Linear Cutter Staplers And Reload",
+              "type": "linear-cutter-staplers",
+              "image": "assets/img/product/surgical-stapling-products/linear-cutter-staplers.png"
+            },
+            {
+              "name": "Linear Staplers",
+              "type": "linear-staplers",
+              "image": "assets/img/product/surgical-stapling-products/linear-staplers.png"
+            },
+            {
+              "name": "Curved Cutting Staplers",
+              "type": "curved-cutting-staplers",
+              "image": "assets/img/product/surgical-stapling-products/curved-cutting-staplers.png"
+            },
+            {
+              "name": "Circular Staplers",
+              "type": "circular-staplers",
+              "image": "assets/img/product/surgical-stapling-products/circular-staplers.png"
+            },
+            {
+              "name": "Hemorrhoids Staplers",
+              "type": "hemorrhoids-staplers",
+              "image": "assets/img/product/surgical-stapling-products/hemorrhoids-staplers.png"
+            },
+            {
+              "name": "Skin Staplers",
+              "type": "skin-staplers",
+              "image": "assets/img/product/surgical-stapling-products/skin-staplers.png"
+            },
+            {
+              "name": "Ligation Clips",
+              "type": "ligation-clips",
+              "image": "assets/img/product/surgical-stapling-products/ligation-clips.png"
+            },
+            {
+              "name": "Hemolock Clips",
+              "type": "hemolock-clips",
+              "image": "assets/img/product/surgical-stapling-products/hemolock-clips.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Meshes",
+          "type": "surgical-meshes",
+          "icon": "fas fa-th-large",
+          "products": [
+            {
+              "name": "Polypropylene Mesh",
+              "type": "polypropylene-mesh",
+              "image": "assets/img/product/surgical-meshes/polypropylene-mesh.png"
+            },
+            {
+              "name": "Light Surgical Mesh",
+              "type": "light-surgical-mesh",
+              "image": "assets/img/product/surgical-meshes/light-surgical-mesh.png"
+            },
+            {
+              "name": "Composite Mesh",
+              "type": "composite-mesh",
+              "image": "assets/img/product/surgical-meshes/composite-mesh.png"
+            },
+            {
+              "name": "Mesh Fixed Device",
+              "type": "mesh-fixed-device",
+              "image": "assets/img/product/surgical-meshes/mesh-fixed-device.png"
+            },
+            {
+              "name": "SVT Prolapse Mesh",
+              "type": "prolapse-mesh",
+              "image": "assets/img/product/surgical-meshes/prolapse-mesh.png"
+            }
+          ]
+        },
+        {
+          "name": "Laparoscopic Instruments",
+          "type": "laparoscopic-instruments",
+          "icon": "fas fa-microscope",
+          "products": [
+            {
+              "name": "Disposable Trocars",
+              "type": "disposable-trocars",
+              "image": "assets/img/product/laparoscopic-instruments/disposable-trocars.png"
+            },
+            {
+              "name": "Disposable Laparoscopic Scissors",
+              "type": "disposable-laparoscopic-scissors",
+              "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-scissors.png"
+            },
+            {
+              "name": "Clip Appliers",
+              "type": "clip-appliers",
+              "image": "assets/img/product/laparoscopic-instruments/clip-appliers.png"
+            },
+            {
+              "name": "Disposable Laparoscopic Merryland",
+              "type": "disposable-laparoscopic-merryland",
+              "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-merryland.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Orthopedic Implants",
+          "type": "orthopedic-implants",
+          "icon": "fas fa-bone",
+          "products": [
+            {
+              "name": "Spine Implants",
+              "type": "spine-implants",
+              "image": "assets/img/product/orthopedic-implants/spine-implants.png"
+            },
+            {
+              "name": "Trauma Implants",
+              "type": "trauma-implants",
+              "image": "assets/img/product/orthopedic-implants/trauma-implants.png"
+            },
+            {
+              "name": "Maxillofacial Implants",
+              "type": "maxillofacial-implants",
+              "image": "assets/img/product/orthopedic-implants/maxillofacial-implants.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Sutures",
+          "type": "surgical-sutures",
+          "icon": "fas fa-syringe",
+          "products": [
+            {
+              "name": "Absorbable Sutures",
+              "type": "absorbable-sutures",
+              "image": "assets/img/product/surgical-suture/absorbable.png"
+            },
+            {
+              "name": "Non Absorbable Sutures",
+              "type": "non-absorbable-sutures",
+              "image": "assets/img/product/surgical-suture/non-absorbable.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Urology Products",
+          "type": "Urology-products",
+          "icon": "fas fa-toilet",
+          "products": [
+            {
+              "name": "Ureteral Stents",
+              "type": "ureteral-stents",
+              "image": "assets/img/product/urology-products/ureteral-stents.png"
+            },
+
+            {
+              "name": "Hydrophilic Guidewire",
+              "type": "hydrophilic-guidewire",
+              "image": "assets/img/product/urology-products/hydrophilic-guidewire.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Electrosurgery Instruments",
+          "type": "electrosurgery-instruments",
+          "icon": "fas fa-bolt",
+          "products": [
+            {
+              "name": "Electrosurgical Pencils",
+              "type": "electrosurgical-pencils",
+              "image": "assets/img/product/electrosurgery-instruments/electrosurgical-pencils.png"
+            },
+            {
+              "name": "Electrosurgical Plates",
+              "type": "electrosurgical-plates",
+              "image": "assets/img/product/electrosurgery-instruments/electrosurgical-plates.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Suction and Drainage",
+          "type": "surgical-suction-and-drainage",
+          "icon": "fas fa-battery-three-quarters",
+          "products": [
+            {
+              "name": "Wound Drainage Sets",
+              "type": "wound-drainage-sets",
+              "image": "assets/img/product/surgical-suction-and-drainage/wound-drainage-sets.png"
+            },
+            {
+              "name": "Yankauer Suction Tips",
+              "type": "yankauer-suction-tips",
+              "image": "assets/img/product/surgical-suction-and-drainage/yankauer-suction-tips.png"
+            }
+          ]
+        },
+        {
+          "name": "Compression Stockings",
+          "type": "compression-stockings",
+          "icon": "fas fa-compress",
+          "products": [
+            {
+              "name": "Anti-Embolism Stockings",
+              "type": "anti-embolism-stockings",
+              "image": "assets/img/product/compression-stockings/anti-embolism-stockings.png"
+            },
+            {
+              "name": "Varicose Vein Stockings",
+              "type": "varicose-vein-stockings",
+              "image": "assets/img/product/compression-stockings/varicose-vein-stockings.png"
             }
           ]
         }

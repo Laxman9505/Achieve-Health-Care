@@ -18,16 +18,6 @@ const HomePage = () => {
     []
   );
 
-  console.log("all sub categories", allSubCategories);
-  // <iframe
-  //   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1766.371991889173!2d85.3468972!3d27.6943066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19628e10de59%3A0xa38d030c0157f76d!2sAchieve%20Health%20Care!5e0!3m2!1sen!2snp!4v1692513041803!5m2!1sen!2snp"
-  //   width={600}
-  //   height={450}
-  //   style={{ border: 0 }}
-  //   allowFullScreen=""
-  //   loading="lazy"
-  //   referrerPolicy="no-referrer-when-downgrade"
-  // />;
   return (
     <>
       <Layout>
@@ -36,7 +26,7 @@ const HomePage = () => {
             <div className="carousel-slide">
               <img src="assets/img/home/banner2.png" alt="Image 2" />
               <div className="carousel-caption">
-                <h3 style={{ color: "white" }}>
+                <h3 style={{ color: "#fff" }}>
                   Welcome to Achieve Healthcare - Your Trusted Partner in
                   Medical Excellence
                 </h3>
