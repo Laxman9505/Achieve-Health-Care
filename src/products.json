@@ -12,27 +12,27 @@
             {
               "name": "Patient Stretcher",
               "type": "patient-stretcher",
-              "image": "assets/img/products/patient-stretcher.png"
+              "image": "assets/img/product/hospital-furnitures/patient-stretcher.png"
             },
             {
               "name": "Emergency stretchers",
               "type": "emergency-stretchers",
-              "image": "assets/img/products/emergency-stretchers.png"
+              "image": "assets/img/product/hospital-furnitures/emergency-stretchers.png"
             },
             {
               "name": "Hospital Bed",
               "type": "hospital-bed",
-              "image": "assets/img/products/hospital-bed.png"
+              "image": "assets/img/product/hospital-furnitures/hospital-bed.png"
             },
             {
               "name": "Bedside Cabinets",
               "type": "bedside-cabinets",
-              "image": "assets/img/products/bedside-cabinets.png"
+              "image": "assets/img/product/hospital-furnitures/bedside-cabinets.png"
             },
             {
               "name": "ICU beds",
               "type": "icu-beds",
-              "image": "assets/img/products/icu-beds.png"
+              "image": "assets/img/product/hospital-furnitures/absorbable.png"
             }
           ]
         },
@@ -44,47 +44,47 @@
             {
               "name": "Electric Operating Table",
               "type": "electric-operating-table",
-              "image": "assets/img/products/electric-operating-table.png"
+              "image": "assets/img/product/operating-room-equipment/electric-operating-table.png"
             },
             {
               "name": "Manual Operating Table",
               "type": "manual-operating-table",
-              "image": "assets/img/products/manual-operating-table.png"
+              "image": "assets/img/product/operating-room-equipment/manual-operating-table.png"
             },
             {
               "name": "Delivery Table",
               "type": "delivery-table",
-              "image": "assets/img/products/delivery-table.png"
+              "image": "assets/img/product/operating-room-equipment/delivery-table.png"
             },
             {
               "name": "Surgical Table",
               "type": "surgical-table",
-              "image": "assets/img/products/surgical-table.png"
+              "image": "assets/img/product/operating-room-equipment/surgical-table.png"
             },
             {
               "name": "OT Lights",
               "type": "ot-lights",
-              "image": "assets/img/products/ot-lights.png"
+              "image": "assets/img/product/operating-room-equipment/ot-lights.png"
             },
             {
               "name": "Laparoscopic Tower And Instruments",
               "type": "laparoscopic-tower-instruments",
-              "image": "assets/img/products/laparoscopic-tower-instruments.png"
+              "image": "assets/img/product/operating-room-equipment/electric-operating-table.png"
             },
             {
               "name": "Open Surgery Instruments",
               "type": "open-surgery-instruments",
-              "image": "assets/img/products/open-surgery-instruments.png"
+              "image": "assets/img/product/operating-room-equipment/electric-operating-table.png"
             },
             {
               "name": "Anesthesia Machine",
               "type": "anesthesia-machine",
-              "image": "assets/img/products/anesthesia-machine.png"
+              "image": "assets/img/product/operating-room-equipment/anesthesia-machine.png"
             },
             {
               "name": "Electro Surgical Unit",
               "type": "electro-surgical-unit",
-              "image": "assets/img/products/electro-surgical-unit.png"
+              "image": "assets/img/product/operating-room-equipment/electro-surgical-unit.png"
             }
           ]
         }
