@@ -94,7 +94,7 @@ const Navbar2 = () => {
                           <Link to={"/all-products"}>Products</Link>
                           <ul>
                             <li>
-                              <a href="index.html">
+                              <a>
                                 Surgical Disposable Items
                                 <span
                                   className="float-right"
@@ -172,7 +172,7 @@ const Navbar2 = () => {
                               </ul>
                             </li>
                             <li>
-                              <a href="index.html">
+                              <a>
                                 Equipments and Instruments{" "}
                                 <span
                                   className="float-right"
@@ -183,62 +183,27 @@ const Navbar2 = () => {
                               </a>
                               <ul>
                                 <li>
-                                  <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  <Link
+                                    to={"/products?type=hospital-furnitures"}
+                                  >
                                     Hospital Furnitures
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                                  <Link
+                                    to={
+                                      "/products?type=operating-room-equipment"
+                                    }
+                                  >
                                     Operating Room Equipment
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
                             <li>
-                              <a href="index.html">
+                              <Link to={"/products?type=diagnostic-equipments"}>
                                 Diagnostic Equipments
-                                <span
-                                  className="float-right"
-                                  style={{ marginLeft: "10px" }}
-                                >
-                                  &gt;
-                                </span>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                    X-ray Machine
-                                    <span
-                                      className="float-right"
-                                      style={{ marginLeft: "10px" }}
-                                    >
-                                      &gt;
-                                    </span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                    Ultrasound Machine
-                                    <span
-                                      className="float-right"
-                                      style={{ marginLeft: "10px" }}
-                                    >
-                                      &gt;
-                                    </span>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                                    Labrotary Equpment
-                                    <span
-                                      className="float-right"
-                                      style={{ marginLeft: "10px" }}
-                                    >
-                                      &gt;
-                                    </span>
-                                  </a>
-                                </li>{" "}
-                              </ul>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -302,7 +267,7 @@ const Navbar2 = () => {
                 <Link to={"/all-products"}>Products</Link>
                 <ul>
                   <li>
-                    <a href="index.html">
+                    <a>
                       Surgical Disposable Items
                       <span
                         className="float-right"
@@ -362,7 +327,7 @@ const Navbar2 = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="index.html">
+                    <a>
                       Equipments and Instruments{" "}
                       <span
                         className="float-right"
@@ -373,62 +338,21 @@ const Navbar2 = () => {
                     </a>
                     <ul>
                       <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                        <Link to={"/products?type=hospital-furnitures"}>
                           Hospital Furnitures
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                        <Link to={"/products?type=operating-room-equipment"}>
                           Operating Room Equipment
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="index.html">
+                    <Link to={"/products?type=diagnostic-equipments"}>
                       Diagnostic Equipments
-                      <span
-                        className="float-right"
-                        style={{ marginLeft: "10px" }}
-                      >
-                        &gt;
-                      </span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          X-ray Machine
-                          <span
-                            className="float-right"
-                            style={{ marginLeft: "10px" }}
-                          >
-                            &gt;
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          Ultrasound Machine
-                          <span
-                            className="float-right"
-                            style={{ marginLeft: "10px" }}
-                          >
-                            &gt;
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          Labrotary Equpment
-                          <span
-                            className="float-right"
-                            style={{ marginLeft: "10px" }}
-                          >
-                            &gt;
-                          </span>
-                        </a>
-                      </li>{" "}
-                    </ul>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -481,7 +405,7 @@ const Navbar2 = () => {
                 <Link to={"/all-products"}>Products</Link>
                 <ul>
                   <li>
-                    <a href="index.html">
+                    <a>
                       Surgical Disposable Items
                       <span
                         className="float-right"
@@ -541,7 +465,7 @@ const Navbar2 = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="index.html">
+                    <a>
                       Equipments and Instruments{" "}
                       <span
                         className="float-right"
@@ -552,62 +476,21 @@ const Navbar2 = () => {
                     </a>
                     <ul>
                       <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                        <Link to={"/products?type=hospital-furnitures"}>
                           Hospital Furnitures
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                        <Link to={"/products?type=operating-room-equipment"}>
                           Operating Room Equipment
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="index.html">
+                    <Link to={"/products?type=diagnostic-equipments"}>
                       Diagnostic Equipments
-                      <span
-                        className="float-right"
-                        style={{ marginLeft: "10px" }}
-                      >
-                        &gt;
-                      </span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          X-ray Machine
-                          <span
-                            className="float-right"
-                            style={{ marginLeft: "10px" }}
-                          >
-                            &gt;
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          Ultrasound Machine
-                          <span
-                            className="float-right"
-                            style={{ marginLeft: "10px" }}
-                          >
-                            &gt;
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          Labrotary Equpment
-                          <span
-                            className="float-right"
-                            style={{ marginLeft: "10px" }}
-                          >
-                            &gt;
-                          </span>
-                        </a>
-                      </li>{" "}
-                    </ul>
+                    </Link>
                   </li>
                 </ul>
               </li>

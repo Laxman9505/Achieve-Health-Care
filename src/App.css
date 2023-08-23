@@ -60,3 +60,6 @@
     font-size: 30px;
   }
 }
+a {
+  cursor: pointer !important;
+}

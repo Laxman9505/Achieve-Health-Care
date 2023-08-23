@@ -343,28 +343,9 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Krishna Prasad Paudel</a>
+                      <a>Krishna Prasad Paudel</a>
                     </h4>
                     <h6 className="ltn__secondary-color">Managing Director</h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -379,30 +360,11 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Er. Ashok Paudel</a>
+                      <a>Er. Ashok Paudel</a>
                     </h4>
                     <h6 className="ltn__secondary-color">
                       Bio Medical Engineer
                     </h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -413,28 +375,9 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Dr. Astha Ghimire</a>
+                      <a>Dr. Astha Ghimire</a>
                     </h4>
                     <h6 className="ltn__secondary-color">Quality Assurance</h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -449,30 +392,11 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Laxman Sharma</a>
+                      <a>Laxman Sharma</a>
                     </h4>
                     <h6 className="ltn__secondary-color">
                       Equipment Installation Engineer
                     </h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -483,31 +407,12 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Sumit Kumar Thakur</a>
+                      <a>Sumit Kumar Thakur</a>
                     </h4>
                     <h6 className="ltn__secondary-color">
                       {" "}
                       Mid Western Regional Medical Director
                     </h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -522,30 +427,11 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Raju Shrestha</a>
+                      <a>Raju Shrestha</a>
                     </h4>
                     <h6 className="ltn__secondary-color">
                       Eastern Regional Medical Director
                     </h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -560,28 +446,9 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Udit Kumar Thakur</a>
+                      <a>Udit Kumar Thakur</a>
                     </h4>
                     <h6 className="ltn__secondary-color">Marketing Manager</h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -597,28 +464,9 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Sharan Thapa</a>
+                      <a>Sharan Thapa</a>
                     </h4>
                     <h6 className="ltn__secondary-color">Technician Head</h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -633,28 +481,9 @@ const AboutUs = () => {
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Ganesh Shrestha</a>
+                      <a>Ganesh Shrestha</a>
                     </h4>
                     <h6 className="ltn__secondary-color">Technician Head</h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -662,35 +491,33 @@ const AboutUs = () => {
                 <div className="ltn__team-item ltn__team-item-3--- shadow-sm">
                   <div className="team-img">
                     <img
-                      src="assets/img/team/ganesh-shrestha.png"
+                      src="assets/img/team/kishor.png"
                       style={{ maxHeight: "368px" }}
                       alt="Image"
                     />
                   </div>
                   <div className="team-info">
                     <h4>
-                      <a href="team-details.html">Sadhananda Padhya</a>
+                      <a>Sadhananda Padhya</a>
                     </h4>
                     <h6 className="ltn__secondary-color">Marketing Manager</h6>
-                    <div className="ltn__social-media">
-                      <ul>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="index.html">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <div className="ltn__team-item ltn__team-item-3--- shadow-sm">
+                  <div className="team-img">
+                    <img
+                      src="assets/img/team/sabita-silwal.png"
+                      style={{ maxHeight: "368px" }}
+                      alt="Image"
+                    />
+                  </div>
+                  <div className="team-info">
+                    <h4>
+                      <a>Sabita Silwal</a>
+                    </h4>
+                    <h6 className="ltn__secondary-color">Marketing Manager</h6>
                   </div>
                 </div>
               </div>

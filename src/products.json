@@ -5,38 +5,6 @@
       "type": "equipments-and-instruments",
       "subCategories": [
         {
-          "name": "Hospital Furnitures",
-          "image": "assets/img/categories/hospital-furnitures.png",
-          "type": "hospital-furnitures",
-          "products": [
-            {
-              "name": "Patient Stretcher",
-              "type": "patient-stretcher",
-              "image": "assets/img/product/hospital-furnitures/patient-stretcher.png"
-            },
-            {
-              "name": "Emergency stretchers",
-              "type": "emergency-stretchers",
-              "image": "assets/img/product/hospital-furnitures/emergency-stretchers.png"
-            },
-            {
-              "name": "Hospital Bed",
-              "type": "hospital-bed",
-              "image": "assets/img/product/hospital-furnitures/hospital-bed.png"
-            },
-            {
-              "name": "Bedside Cabinets",
-              "type": "bedside-cabinets",
-              "image": "assets/img/product/hospital-furnitures/bedside-cabinets.png"
-            },
-            {
-              "name": "ICU beds",
-              "type": "icu-beds",
-              "image": "assets/img/product/hospital-furnitures/icu-beds.png"
-            }
-          ]
-        },
-        {
           "name": "Operating Room Equipment",
           "image": "assets/img/categories/operating-room-equipment.png",
           "type": "operating-room-equipment",
@@ -85,6 +53,38 @@
               "name": "Electro Surgical Unit",
               "type": "electro-surgical-unit",
               "image": "assets/img/product/operating-room-equipment/electro-surgical-unit.png"
+            }
+          ]
+        },
+        {
+          "name": "Hospital Furnitures",
+          "image": "assets/img/categories/hospital-furnitures.png",
+          "type": "hospital-furnitures",
+          "products": [
+            {
+              "name": "Patient Stretcher",
+              "type": "patient-stretcher",
+              "image": "assets/img/product/hospital-furnitures/patient-stretcher.png"
+            },
+            {
+              "name": "Emergency stretchers",
+              "type": "emergency-stretchers",
+              "image": "assets/img/product/hospital-furnitures/emergency-stretchers.png"
+            },
+            {
+              "name": "Hospital Bed",
+              "type": "hospital-bed",
+              "image": "assets/img/product/hospital-furnitures/hospital-bed.png"
+            },
+            {
+              "name": "Bedside Cabinets",
+              "type": "bedside-cabinets",
+              "image": "assets/img/product/hospital-furnitures/bedside-cabinets.png"
+            },
+            {
+              "name": "ICU beds",
+              "type": "icu-beds",
+              "image": "assets/img/product/hospital-furnitures/icu-beds.png"
             }
           ]
         }
@@ -317,19 +317,24 @@
           ]
         },
         {
-          "name": "Compression Stockings",
-          "type": "compression-stockings",
-          "icon": "fas fa-compress",
+          "name": "Diagnostic Equipments",
+          "type": "diagnostic-equipments",
+          "image": "assets/img/categories/diagnostic-equipments.png",
           "products": [
             {
-              "name": "Anti-Embolism Stockings",
-              "type": "anti-embolism-stockings",
-              "image": "assets/img/product/compression-stockings/anti-embolism-stockings.png"
+              "name": "X-ray Machine",
+              "type": "x-ray-machine",
+              "image": "assets/img/product/diagnostic-equipments/x-ray-machine.png"
             },
             {
-              "name": "Varicose Vein Stockings",
-              "type": "varicose-vein-stockings",
-              "image": "assets/img/product/compression-stockings/varicose-vein-stockings.png"
+              "name": "Ultrasound Machine",
+              "type": "ultrasound-machine",
+              "image": "assets/img/product/diagnostic-equipments/ultrasound-machine.png"
+            },
+            {
+              "name": "Labrotary Equipment",
+              "type": "labrotary-equipment",
+              "image": "assets/img/product/diagnostic-equipments/labrotary-equipment.png"
             }
           ]
         }
