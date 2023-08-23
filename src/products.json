@@ -6,7 +6,7 @@
       "subCategories": [
         {
           "name": "Hospital Furnitures",
-          "icon": "fas fa-bed",
+          "image": "assets/img/categories/hospital-furnitures.png",
           "type": "hospital-furnitures",
           "products": [
             {
@@ -32,13 +32,13 @@
             {
               "name": "ICU beds",
               "type": "icu-beds",
-              "image": "assets/img/product/hospital-furnitures/absorbable.png"
+              "image": "assets/img/product/hospital-furnitures/icu-beds.png"
             }
           ]
         },
         {
           "name": "Operating Room Equipment",
-          "icon": "fas fa-hospital",
+          "image": "assets/img/categories/operating-room-equipment.png",
           "type": "operating-room-equipment",
           "products": [
             {
@@ -69,12 +69,12 @@
             {
               "name": "Laparoscopic Tower And Instruments",
               "type": "laparoscopic-tower-instruments",
-              "image": "assets/img/product/operating-room-equipment/electric-operating-table.png"
+              "image": "assets/img/product/operating-room-equipment/laparoscopic-tower-instruments.png"
             },
             {
               "name": "Open Surgery Instruments",
               "type": "open-surgery-instruments",
-              "image": "assets/img/product/operating-room-equipment/electric-operating-table.png"
+              "image": "assets/img/product/operating-room-equipment/open-surgery-instruments.png"
             },
             {
               "name": "Anesthesia Machine",
@@ -97,8 +97,7 @@
         {
           "name": "Surgical Stapling Products",
           "type": "surgical-stapling-products",
-          "icon": "fas fa-stapler",
-          "image": "path/to/surgical-stapling-products-image.jpg",
+          "image": "assets/img/categories/surgical-stapling-products.png",
           "products": [
             {
               "name": "Endoscopic Linear Cutter Staplers",
@@ -150,7 +149,7 @@
         {
           "name": "Surgical Meshes",
           "type": "surgical-meshes",
-          "icon": "fas fa-th-large",
+          "image": "assets/img/categories/surgical-meshes.png",
           "products": [
             {
               "name": "Polypropylene Mesh",
@@ -182,7 +181,7 @@
         {
           "name": "Laparoscopic Instruments",
           "type": "laparoscopic-instruments",
-          "icon": "fas fa-microscope",
+          "image": "assets/img/categories/laparoscopic-instruments.png",
           "products": [
             {
               "name": "Disposable Trocars",
@@ -210,7 +209,7 @@
         {
           "name": "Orthopedic Implants",
           "type": "orthopedic-implants",
-          "icon": "fas fa-bone",
+          "image": "assets/img/categories/orthopedic-implants.png",
           "products": [
             {
               "name": "Spine Implants",
@@ -232,7 +231,7 @@
         {
           "name": "Surgical Sutures",
           "type": "surgical-sutures",
-          "icon": "fas fa-syringe",
+          "image": "assets/img/categories/surgical-sutures.png",
           "products": [
             {
               "name": "Absorbable Sutures",
@@ -250,7 +249,7 @@
         {
           "name": "Urology Products",
           "type": "Urology-products",
-          "icon": "fas fa-toilet",
+          "image": "assets/img/categories/Urology-products.png",
           "products": [
             {
               "name": "Ureteral Stents",
@@ -269,7 +268,7 @@
         {
           "name": "Electrosurgery Instruments",
           "type": "electrosurgery-instruments",
-          "icon": "fas fa-bolt",
+          "image": "assets/img/categories/electrosurgery-instruments.png",
           "products": [
             {
               "name": "Electrosurgical Pencils",
@@ -286,7 +285,7 @@
         {
           "name": "Surgical Suction and Drainage",
           "type": "surgical-suction-and-drainage",
-          "icon": "fas fa-battery-three-quarters",
+          "image": "assets/img/categories/surgical-suction-and-drainage.png",
           "products": [
             {
               "name": "Wound Drainage Sets",
@@ -297,6 +296,23 @@
               "name": "Yankauer Suction Tips",
               "type": "yankauer-suction-tips",
               "image": "assets/img/product/surgical-suction-and-drainage/yankauer-suction-tips.png"
+            }
+          ]
+        },
+        {
+          "name": "Compression Stockings",
+          "type": "compression-stockings",
+          "image": "assets/img/categories/compression-stockings.png",
+          "products": [
+            {
+              "name": "Anti-Embolism Stockings",
+              "type": "anti-embolism-stockings",
+              "image": "assets/img/product/compression-stockings/anti-embolism-stockings.png"
+            },
+            {
+              "name": "Varicose Vein Stockings",
+              "type": "varicose-vein-stockings",
+              "image": "assets/img/product/compression-stockings/varicose-vein-stockings.png"
             }
           ]
         },

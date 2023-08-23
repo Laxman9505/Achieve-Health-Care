@@ -13,7 +13,11 @@ const Footer = () => {
               <div className="footer-widget footer-about-widget">
                 <div className="footer-logo">
                   <div className="site-logo">
-                    <img src="assets/img/logo.png" alt="Logo" />
+                    <img
+                      src="assets/img/logo.png"
+                      style={{ width: "70%" }}
+                      alt="Logo"
+                    />
                   </div>
                 </div>
               </div>

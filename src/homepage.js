@@ -49,7 +49,10 @@ const HomePage = () => {
                     <div className="ltn__category-item ltn__category-item-6 text-center">
                       <div className="ltn__category-item-img">
                         <Link to={`/products?type=${item.type}`}>
-                          <i className={item.icon}></i> {/* Needle Icon */}
+                          <img
+                            src={item.image}
+                            style={{ maxHeight: "100px", maxWidth: "100px" }}
+                          />
                         </Link>
                       </div>
                       <div className="ltn__category-item-name">

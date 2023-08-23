@@ -40,3 +40,23 @@
     font-size: 45px !important;
   }
 }
+.ant-btn-icon {
+  position: relative !important;
+  top: -12px !important;
+  right: 8px !important;
+}
+@media screen and (max-width: 756px) {
+  .carousel-slide .carousel-caption {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Overlay color and opacity */
+    color: white;
+    padding: 10px;
+    color: green !important;
+  }
+  .carousel-caption h3 {
+    font-size: 30px;
+  }
+}
