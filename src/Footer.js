@@ -101,7 +101,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="ltn__social-media mt-20">
+                  {/* <div className="ltn__social-media mt-20">
                     <ul>
                       <li>
                         <a href="#" title="Facebook">
@@ -124,7 +124,7 @@ const Footer = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

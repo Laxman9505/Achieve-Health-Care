@@ -58,7 +58,7 @@ const AboutUs = () => {
                         <div className="about-author-info-2-brief  d-flex">
                           <div className="author-img">
                             <img
-                              src="assets/img/blog/author.jpg"
+                              src="assets/img/others/kirshna.png"
                               alt="author-image"
                             />
                           </div>
