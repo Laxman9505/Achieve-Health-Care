@@ -4,9 +4,11 @@ import { MenuFoldOutlined } from "@ant-design/icons";
 import { Button, Drawer } from "antd";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { redirectToMaps } from "./mapRedirect";
 
 const Navbar2 = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
   return (
     <>
       {/* HEADER AREA START (header-5) */}
@@ -23,7 +25,11 @@ const Navbar2 = () => {
                         <i className="icon-mail" /> achievehealthcare@gmail.com
                       </a>
                     </li>
-                    <li>
+                    <li
+                      onClick={() => {
+                        redirectToMaps();
+                      }}
+                    >
                       <Link to={"/contact-us"}>
                         <i className="icon-placeholder" /> Shantinagar,
                         Baneshwor

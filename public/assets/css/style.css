@@ -15253,7 +15253,7 @@ input.cart-plus-minus-box {
 }
 
 .about-author-info-2 .about-author-info-2-brief img {
-  max-width: 40px;
+  max-width: 80px !important;
   border-radius: 100%;
   margin-right: 15px;
 }

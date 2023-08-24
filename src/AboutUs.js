@@ -75,7 +75,10 @@ const AboutUs = () => {
                           </div>
                           <div className="about-author-info-2-contact-info">
                             <small>Get Support</small>
-                            <h6 className="mb-0">+977 9851073526</h6>
+                            <h6 className="mb-0">
+                              {" "}
+                              <a href="tel:+977 9851073526">+977 9851073526</a>
+                            </h6>
                           </div>
                         </div>
                       </li>

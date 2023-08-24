@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import { redirectToMaps } from "./mapRedirect";
 
 const Footer = () => {
   return (
@@ -74,7 +75,13 @@ const Footer = () => {
                           <i className="icon-placeholder" />
                         </div>
                         <div className="footer-address-info">
-                          <p>Baneshwor, Kathmandu</p>
+                          <a
+                            onClick={() => {
+                              redirectToMaps();
+                            }}
+                          >
+                            Baneshwor, Kathmandu
+                          </a>
                         </div>
                       </li>
                       <li>

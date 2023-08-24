@@ -2,6 +2,7 @@
 
 import React from "react";
 import Layout from "./Layout";
+import { redirectToMaps } from "./mapRedirect";
 
 const ContactUs = () => {
   return (
@@ -15,7 +16,12 @@ const ContactUs = () => {
                   <img src="assets/img/icons/10.png" alt="Icon Image" />
                 </div>
                 <h3>Email Address</h3>
-                <p>achievehealthcare@gmail.com</p>
+                <p>
+                  {" "}
+                  <a href="mailto:achievehealthcare@gmail.com">
+                    achievehealthcare@gmail.com
+                  </a>
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -24,7 +30,10 @@ const ContactUs = () => {
                   <img src="assets/img/icons/11.png" alt="Icon Image" />
                 </div>
                 <h3>Phone Number</h3>
-                <p>+977 9851073526</p>
+                <p>
+                  {" "}
+                  <a href="tel:+977 9851073526">+977 9851073526</a>
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -33,7 +42,13 @@ const ContactUs = () => {
                   <img src="assets/img/icons/12.png" alt="Icon Image" />
                 </div>
                 <h3>Office Address</h3>
-                <p>Baneshwor, Kathmandu</p>
+                <p
+                  onClick={() => {
+                    redirectToMaps();
+                  }}
+                >
+                  Baneshwor, Kathmandu
+                </p>
               </div>
             </div>
           </div>
