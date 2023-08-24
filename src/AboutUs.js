@@ -517,7 +517,7 @@ const AboutUs = () => {
                     <h4>
                       <a>Sabita Silwal</a>
                     </h4>
-                    <h6 className="ltn__secondary-color">Marketing Manager</h6>
+                    <h6 className="ltn__secondary-color">Account Head</h6>
                   </div>
                 </div>
               </div>

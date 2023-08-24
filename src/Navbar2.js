@@ -19,15 +19,15 @@ const Navbar2 = () => {
                 <div className="ltn__top-bar-menu">
                   <ul>
                     <li>
-                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                      <a href="mailto:achievehealthcare@gmail.com">
                         <i className="icon-mail" /> achievehealthcare@gmail.com
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
+                      <Link to={"/contact-us"}>
                         <i className="icon-placeholder" /> Shantinagar,
                         Baneshwor
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

@@ -3,6 +3,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutUs from "./AboutUs";
+import AfterSalesService from "./After-Sales-Service";
 import AllProducts from "./AllProducts";
 import "./App.css";
 import ContactUs from "./ContactUs";
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/all-products" element={<AllProducts />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/our-services" element={<OurService />} />
+        <Route path="/after-sales-services" element={<AfterSalesService />} />
       </Routes>
     </BrowserRouter>
   );

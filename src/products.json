@@ -87,6 +87,28 @@
               "image": "assets/img/product/hospital-furnitures/icu-beds.png"
             }
           ]
+        },
+        {
+          "name": "Diagnostic Equipments",
+          "type": "diagnostic-equipments",
+          "image": "assets/img/categories/diagnostic-equipments.png",
+          "products": [
+            {
+              "name": "X-ray Machine",
+              "type": "x-ray-machine",
+              "image": "assets/img/product/diagnostic-equipments/x-ray-machine.png"
+            },
+            {
+              "name": "Ultrasound Machine",
+              "type": "ultrasound-machine",
+              "image": "assets/img/product/diagnostic-equipments/ultrasound-machine.png"
+            },
+            {
+              "name": "Labrotary Equipment",
+              "type": "labrotary-equipment",
+              "image": "assets/img/product/diagnostic-equipments/labrotary-equipment.png"
+            }
+          ]
         }
       ]
     },
@@ -313,28 +335,6 @@
               "name": "Varicose Vein Stockings",
               "type": "varicose-vein-stockings",
               "image": "assets/img/product/compression-stockings/varicose-vein-stockings.png"
-            }
-          ]
-        },
-        {
-          "name": "Diagnostic Equipments",
-          "type": "diagnostic-equipments",
-          "image": "assets/img/categories/diagnostic-equipments.png",
-          "products": [
-            {
-              "name": "X-ray Machine",
-              "type": "x-ray-machine",
-              "image": "assets/img/product/diagnostic-equipments/x-ray-machine.png"
-            },
-            {
-              "name": "Ultrasound Machine",
-              "type": "ultrasound-machine",
-              "image": "assets/img/product/diagnostic-equipments/ultrasound-machine.png"
-            },
-            {
-              "name": "Labrotary Equipment",
-              "type": "labrotary-equipment",
-              "image": "assets/img/product/diagnostic-equipments/labrotary-equipment.png"
             }
           ]
         }
