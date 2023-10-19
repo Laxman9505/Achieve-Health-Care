@@ -511,6 +511,23 @@ const AboutUs = () => {
                 <div className="ltn__team-item ltn__team-item-3--- shadow-sm">
                   <div className="team-img">
                     <img
+                      src="assets/img/team/sona-magar.png"
+                      style={{ maxHeight: "368px" }}
+                      alt="Image"
+                    />
+                  </div>
+                  <div className="team-info">
+                    <h4>
+                      <a>Sona Thapa Magar</a>
+                    </h4>
+                    <h6 className="ltn__secondary-color">Accountant</h6>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <div className="ltn__team-item ltn__team-item-3--- shadow-sm">
+                  <div className="team-img">
+                    <img
                       src="assets/img/team/sabita-silwal.png"
                       style={{ maxHeight: "368px" }}
                       alt="Image"
