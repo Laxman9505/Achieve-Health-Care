@@ -122,46 +122,6 @@
           "image": "assets/img/categories/anesthesia-products.png",
           "products": [
             {
-              "name": "Spinal Needles",
-              "type": "spinal-needles",
-              "image": "assets/img/product/anesthesia-products/spinal-needles.png"
-            },
-            {
-              "name": "I.V Cannula",
-              "type": "iv-cannula",
-              "image": "assets/img/product/anesthesia-products/iv-cannula.png"
-            },
-            {
-              "name": "Nervoplex Ultra",
-              "type": "nervoplex-ultra",
-              "image": "assets/img/product/anesthesia-products/nervoplex-ultra.png"
-            },
-            {
-              "name": "Disposable Infusion Extension Tubes",
-              "type": "disposalbe-infusion-extension-tubes",
-              "image": "assets/img/product/anesthesia-products/disposalbe-infusion-extension-tubes.png"
-            },
-            {
-              "name": "Disposable Injection Site Adapters",
-              "type": "disposable-injection-site-adapters",
-              "image": "assets/img/product/anesthesia-products/disposable-injection-site-adapters.png"
-            },
-            {
-              "name": "Arterial Cannula",
-              "type": "arterial-cannula",
-              "image": "assets/img/product/anesthesia-products/arterial-cannula.png"
-            },
-            {
-              "name": "Igel Easy",
-              "type": "igel-easy",
-              "image": "assets/img/product/anesthesia-products/igel-easy.png"
-            },
-            {
-              "name": "Standard Endotracheal Tube",
-              "type": "standard-endotracheal-tube",
-              "image": "assets/img/product/anesthesia-products/standard-endotracheal-tube.png"
-            },
-            {
               "name": "Reinforced Endotracheal Tube",
               "type": "reinforced-endotracheal-tube",
               "image": "assets/img/product/anesthesia-products/reinforced-endotracheal-tube.png"
@@ -216,6 +176,46 @@
               "name": "HME filter",
               "type": "hme-filter",
               "image": "assets/img/product/anesthesia-products/hme-filter.png"
+            },
+            {
+              "name": "Spinal Needles",
+              "type": "spinal-needles",
+              "image": "assets/img/product/anesthesia-products/spinal-needles.png"
+            },
+            {
+              "name": "I.V Cannula",
+              "type": "iv-cannula",
+              "image": "assets/img/product/anesthesia-products/iv-cannula.png"
+            },
+            {
+              "name": "Nervoplex Ultra",
+              "type": "nervoplex-ultra",
+              "image": "assets/img/product/anesthesia-products/nervoplex-ultra.png"
+            },
+            {
+              "name": "Disposable Infusion Extension Tubes",
+              "type": "disposalbe-infusion-extension-tubes",
+              "image": "assets/img/product/anesthesia-products/disposalbe-infusion-extension-tubes.png"
+            },
+            {
+              "name": "Disposable Injection Site Adapters",
+              "type": "disposable-injection-site-adapters",
+              "image": "assets/img/product/anesthesia-products/disposable-injection-site-adapters.png"
+            },
+            {
+              "name": "Arterial Cannula",
+              "type": "arterial-cannula",
+              "image": "assets/img/product/anesthesia-products/arterial-cannula.png"
+            },
+            {
+              "name": "Igel Easy",
+              "type": "igel-easy",
+              "image": "assets/img/product/anesthesia-products/igel-easy.png"
+            },
+            {
+              "name": "Standard Endotracheal Tube",
+              "type": "standard-endotracheal-tube",
+              "image": "assets/img/product/anesthesia-products/standard-endotracheal-tube.png"
             }
           ]
         },
