@@ -211,18 +211,81 @@
               "name": "Closed Suction Catheter",
               "type": "closed-suction-catheter",
               "image": "assets/img/product/anesthesia-products/closed-suction-catheter.png"
+            },
+            {
+              "name": "HME filter",
+              "type": "hme-filter",
+              "image": "assets/img/product/anesthesia-products/hme-filter.png"
             }
           ]
         },
         {
-          "name": "Gainology Products",
+          "name": "Neuro Surgery Products",
+          "type": "neuro-surgery",
+          "image": "assets/img/categories/neuro-surgery-products.png",
+          "products": [
+            {
+              "name": "Dural Sealant System",
+              "type": "dural-sealant-system",
+              "image": "assets/img/product/neuro-surgery/dural-sealant-system.png"
+            },
+            {
+              "name": "Dural Repair Patch",
+              "type": "dural-repair-patch",
+
+              "image": "assets/img/product/neuro-surgery/dural-repair-patch.png"
+            },
+            {
+              "name": "Absorbable Hemostat(Fibrillar)",
+              "type": "absorbable-hemostat-fibrillar",
+              "image": "assets/img/product/neuro-surgery/absorbable-hemostat-fibrillar.png"
+            },
+            {
+              "name": "Absorbable Hemostat(surgicel)",
+              "type": "absorbable-hemostat-surgicel",
+              "image": "assets/img/product/neuro-surgery/absorbable-hemostat-surgicel.png"
+            },
+            {
+              "name": "Tracheostomy Tube",
+              "type": "tracheostomy-tube",
+              "image": "assets/img/product/neuro-surgery/tracheostomy-tube.png"
+            },
+            {
+              "name": "craniotomy drape",
+              "type": "craniotomy-drape",
+              "image": "assets/img/product/neuro-surgery/craniotomy-drape.png"
+            },
+            {
+              "name": "Surgical Gown",
+              "type": "surgical-gown",
+              "image": "assets/img/product/neuro-surgery/surgical-gown.png"
+            },
+            {
+              "name": "Mini Screw Plate And Implant",
+              "type": "mini-screw-plate-implant",
+              "image": "assets/img/product/neuro-surgery/mini-screw-plate-implant.png"
+            },
+            {
+              "name": "Titanium Mesh",
+              "type": "titanium-mesh",
+              "image": "assets/img/product/neuro-surgery/titanium-mesh.png"
+            }
+          ]
+        },
+        {
+          "name": "Gynaecology Products",
           "type": "gainology-products",
           "image": "assets/img/categories/gainology-products.png",
           "products": [
             {
-              "name": "Duzey SVT Female Urinal Incontinence Set",
+              "name": "SVT Female Urinal Incontinence Set",
               "type": "dujey-svt",
-              "image": "assets/img/product/surgical-suture/absorbable.png"
+              "image": "assets/img/product/gainology-products/dujey-svt.png"
+            },
+            {
+              "name": "SVT Prolapse Mesh / TOT Tape",
+              "type": "tot-tape",
+              "image": "assets/img/product/gainology-products/tot-tape.png"
             }
           ]
         },
@@ -255,9 +318,14 @@
               "image": "assets/img/product/surgical-stapling-products/endoscopic-linear-cutter-staplers.png"
             },
             {
-              "name": "Linear Cutter Staplers And Reload",
+              "name": "Double Line Linear Cutter Staplers And Reload",
               "type": "linear-cutter-staplers",
               "image": "assets/img/product/surgical-stapling-products/linear-cutter-staplers.png"
+            },
+            {
+              "name": "Triple Line Linear Cutter Staplers And Reload",
+              "type": "triple-line-linear-cutter-gun-reload",
+              "image": "assets/img/product/surgical-stapling-products/triple-line-linear-cutter-gun-reload.png"
             },
             {
               "name": "Linear Staplers",
@@ -322,9 +390,9 @@
               "image": "assets/img/product/surgical-meshes/mesh-fixed-device.png"
             },
             {
-              "name": "SVT Prolapse Mesh",
-              "type": "prolapse-mesh",
-              "image": "assets/img/product/surgical-meshes/prolapse-mesh.png"
+              "name": "3D Mesh",
+              "type": "3d-mesh",
+              "image": "assets/img/product/surgical-meshes/3d-mesh.png"
             }
           ]
         },
@@ -394,6 +462,11 @@
               "name": "Hydrophilic Guidewire",
               "type": "hydrophilic-guidewire",
               "image": "assets/img/product/urology-products/hydrophilic-guidewire.png"
+            },
+            {
+              "name": "T.U.R.P Set",
+              "type": "turp-set",
+              "image": "assets/img/product/urology-products/turp-set.png"
             }
           ]
         },

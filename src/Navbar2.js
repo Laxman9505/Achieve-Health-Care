@@ -121,7 +121,12 @@ const Navbar2 = () => {
                                   <Link
                                     to={"/products?type=gainology-products"}
                                   >
-                                    Gainology Products
+                                    Gynaecology Products
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to={"/products?type=neuro-surgery"}>
+                                    Neuro Surgery Products
                                   </Link>
                                 </li>
                                 <li>
@@ -137,14 +142,14 @@ const Navbar2 = () => {
                                 <li>
                                   <Link
                                     to={
-                                      "products?type=surgical-stapling-products"
+                                      "/products?type=surgical-stapling-products"
                                     }
                                   >
                                     Surgical Stapling Products
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to={"products?type=Urology-products"}>
+                                  <Link to={"/products?type=Urology-products"}>
                                     Urology Products
                                   </Link>
                                 </li>

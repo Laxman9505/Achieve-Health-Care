@@ -99,7 +99,7 @@ const Products = () => {
                       }}
                       src={item.image}
                       alt={item.name}
-                      preview={false}
+                      // preview={false}
                     />
                   </div>
                   <div className="product-info">
