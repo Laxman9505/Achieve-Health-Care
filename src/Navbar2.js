@@ -2,7 +2,7 @@
 
 import { MenuFoldOutlined } from "@ant-design/icons";
 import { Button, Drawer } from "antd";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { redirectToMaps } from "./mapRedirect";
 
@@ -110,6 +110,20 @@ const Navbar2 = () => {
                                 </span>
                               </a>
                               <ul>
+                                <li>
+                                  <Link
+                                    to={"/products?type=anesthesia-products"}
+                                  >
+                                    Anesthesia Products
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link
+                                    to={"/products?type=gainology-products"}
+                                  >
+                                    Gainology Products
+                                  </Link>
+                                </li>
                                 <li>
                                   <Link to={"/products?type=surgical-sutures"}>
                                     Surgical Sutures
