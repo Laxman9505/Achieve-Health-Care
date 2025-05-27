@@ -272,40 +272,6 @@
             }
           ]
         },
-        {
-          "name": "Gynaecology Products",
-          "type": "gainology-products",
-          "image": "assets/img/categories/gainology-products.png",
-          "products": [
-            {
-              "name": "SVT Female Urinal Incontinence Set",
-              "type": "dujey-svt",
-              "image": "assets/img/product/gainology-products/dujey-svt.png"
-            },
-            {
-              "name": "SVT Prolapse Mesh / TOT Tape",
-              "type": "tot-tape",
-              "image": "assets/img/product/gainology-products/tot-tape.png"
-            }
-          ]
-        },
-        {
-          "name": "Surgical Sutures",
-          "type": "surgical-sutures",
-          "image": "assets/img/categories/surgical-sutures.png",
-          "products": [
-            {
-              "name": "Absorbable Sutures",
-              "type": "absorbable-sutures",
-              "image": "assets/img/product/surgical-suture/absorbable.png"
-            },
-            {
-              "name": "Non Absorbable Sutures",
-              "type": "non-absorbable-sutures",
-              "image": "assets/img/product/surgical-suture/non-absorbable.png"
-            }
-          ]
-        },
 
         {
           "name": "Surgical Stapling Products",
@@ -364,6 +330,7 @@
             }
           ]
         },
+
         {
           "name": "Surgical Meshes",
           "type": "surgical-meshes",
@@ -420,6 +387,40 @@
               "name": "Disposable Laparoscopic Merryland",
               "type": "disposable-laparoscopic-merryland",
               "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-merryland.png"
+            }
+          ]
+        },
+        {
+          "name": "Surgical Sutures",
+          "type": "surgical-sutures",
+          "image": "assets/img/categories/surgical-sutures.png",
+          "products": [
+            {
+              "name": "Absorbable Sutures",
+              "type": "absorbable-sutures",
+              "image": "assets/img/product/surgical-suture/absorbable.png"
+            },
+            {
+              "name": "Non Absorbable Sutures",
+              "type": "non-absorbable-sutures",
+              "image": "assets/img/product/surgical-suture/non-absorbable.png"
+            }
+          ]
+        },
+        {
+          "name": "Gynaecology Products",
+          "type": "gainology-products",
+          "image": "assets/img/categories/gainology-products.png",
+          "products": [
+            {
+              "name": "SVT Female Urinal Incontinence Set",
+              "type": "dujey-svt",
+              "image": "assets/img/product/gainology-products/dujey-svt.png"
+            },
+            {
+              "name": "SVT Prolapse Mesh / TOT Tape",
+              "type": "tot-tape",
+              "image": "assets/img/product/gainology-products/tot-tape.png"
             }
           ]
         },
