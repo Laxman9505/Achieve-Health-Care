@@ -388,10 +388,9 @@
               "type": "disposable-laparoscopic-merryland",
               "image": "assets/img/product/laparoscopic-instruments/disposable-laparoscopic-merryland.png"
             },
-
             {
-              "name": "Wound Refactors",
-              "type": "wound-refactors",
+              "name": "Wound Retractors",
+              "type": "wound-retractors",
               "image": "assets/img/product/laparoscopic-instruments/wound-refactors.png"
             }
           ]
