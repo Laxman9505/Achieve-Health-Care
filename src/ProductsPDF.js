@@ -23,119 +23,118 @@ Font.register({
   ],
 });
 
-// Create styles
+// Create responsive styles
 const styles = StyleSheet.create({
   document: {
     fontFamily: "Open Sans",
   },
   page: {
-    padding: 20,
-    backgroundColor: "#f0f9f8", // Light medical-themed teal background
+    padding: 15,
+    backgroundColor: "#f5fbfa",
   },
   header: {
-    marginBottom: 15,
+    marginBottom: 10,
     textAlign: "center",
-    paddingBottom: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: "#3a7d78",
-    borderBottomStyle: "solid",
+    padding: "12 20",
     backgroundColor: "#ffffff",
-    padding: 15,
-    borderRadius: 8,
-    boxShadow: "0 2px 4px rgba(58,125,120,0.1)",
+    borderRadius: 6,
+    borderBottom: "2px solid #2a7d76",
+    boxShadow: "0 2px 4px rgba(42,125,118,0.1)",
   },
   title: {
-    fontSize: 22,
+    fontSize: 20,
     fontWeight: "bold",
     color: "#1a5a57",
-    marginBottom: 5,
+    marginBottom: 4,
   },
   subtitle: {
-    fontSize: 12,
-    color: "#4a6b69",
+    fontSize: 11,
+    color: "#5a7a78",
+    marginBottom: 2,
   },
   sectionTitle: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "bold",
     color: "#1a5a57",
-    marginTop: 15,
-    marginBottom: 10,
-    paddingBottom: 5,
-    borderBottomWidth: 1,
-    borderBottomColor: "#d0e8e6",
-    borderBottomStyle: "solid",
+    margin: "10 0 8 0",
+    padding: "6 10",
     backgroundColor: "#e6f5f3",
-    padding: 8,
     borderRadius: 4,
+    borderLeft: "4px solid #2a7d76",
   },
-  productsContainer: {
+  productsGrid: {
+    display: "flex",
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "space-between",
-    marginHorizontal: 5,
+    alignItems: "flex-start",
+    margin: "0 -5",
+  },
+  productColumn: {
+    width: "48%",
+    marginBottom: 10,
   },
   productCard: {
-    width: "48%",
-    marginBottom: 15,
     padding: 10,
     backgroundColor: "#ffffff",
-    borderRadius: 6,
-    borderWidth: 1,
-    borderColor: "#d6f0ed",
-    boxShadow: "0 2px 4px rgba(58,125,120,0.1)",
-    minHeight: 220, // Fixed height for consistent cards
+    borderRadius: 5,
+    border: "1px solid #d0e8e6",
+    marginBottom: 15,
+    height: 200, // Fixed height for all cards
+    display: "flex",
+    flexDirection: "column",
   },
   productImageContainer: {
+    flex: 1,
+    display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    height: 120,
-    marginBottom: 8,
-    padding: 8,
+    padding: 5,
     backgroundColor: "#f8fdfc",
-    borderWidth: 1,
-    borderColor: "#e0f2f0",
-    borderRadius: 4,
+    border: "1px solid #e0f2f0",
+    borderRadius: 3,
+    marginBottom: 8,
+    minHeight: 120,
   },
   productImage: {
-    maxWidth: "90%",
+    maxWidth: "100%",
     maxHeight: "100%",
     objectFit: "contain",
   },
+  productTextContainer: {
+    flex: 0,
+    minHeight: 50,
+  },
   productName: {
-    fontSize: 11,
+    fontSize: 10.5,
     fontWeight: "bold",
     textAlign: "center",
     color: "#1a5a57",
-    marginTop: 6,
     lineHeight: 1.3,
-    minHeight: 30, // Ensure consistent name box height
+    marginBottom: 3,
   },
   productCode: {
-    fontSize: 9,
+    fontSize: 8.5,
     color: "#5a7a78",
     textAlign: "center",
-    marginTop: 4,
     fontStyle: "italic",
   },
   footer: {
     position: "absolute",
-    bottom: 20,
-    left: 0,
-    right: 0,
+    bottom: 15,
+    left: 15,
+    right: 15,
     textAlign: "center",
     fontSize: 9,
     color: "#5a7a78",
-    paddingTop: 10,
-    borderTopWidth: 1,
-    borderTopColor: "#d0e8e6",
+    padding: "8 0",
+    borderTop: "1px solid #d0e8e6",
     backgroundColor: "#ffffff",
-    padding: 8,
-    marginHorizontal: 20,
     borderRadius: 4,
   },
   pageNumber: {
     position: "absolute",
-    bottom: 10,
+    bottom: 5,
     left: 0,
     right: 0,
     textAlign: "center",
@@ -144,9 +143,9 @@ const styles = StyleSheet.create({
   },
   watermark: {
     position: "absolute",
-    opacity: 0.08,
-    fontSize: 72,
-    color: "#3a7d78",
+    opacity: 0.06,
+    fontSize: 70,
+    color: "#2a7d76",
     transform: "rotate(-30deg)",
     left: "15%",
     top: "40%",
@@ -154,42 +153,43 @@ const styles = StyleSheet.create({
   },
   medicalBadge: {
     position: "absolute",
-    top: 15,
-    right: 20,
-    backgroundColor: "#3a7d78",
+    top: 12,
+    right: 15,
+    backgroundColor: "#2a7d76",
     color: "white",
-    padding: "3px 8px",
+    padding: "2 8",
     borderRadius: 10,
-    fontSize: 8,
+    fontSize: 7.5,
     fontWeight: "bold",
   },
 });
 
 const ProductCard = ({ product }) => (
-  <View style={styles.productCard} wrap={false}>
+  <View style={styles.productCard}>
     <View style={styles.productImageContainer}>
       <PDFImage
         style={styles.productImage}
         src={product.image}
-        minWidth={100}
-        minHeight={100}
+        minWidth={90}
+        minHeight={90}
       />
     </View>
-    <Text style={styles.productName}>{product.name}</Text>
-    {product.code && (
-      <Text style={styles.productCode}>Product Code: {product.code}</Text>
-    )}
+    <View style={styles.productTextContainer}>
+      <Text style={styles.productName}>{product.name}</Text>
+      {product.code && (
+        <Text style={styles.productCode}>Ref: {product.code}</Text>
+      )}
+    </View>
   </View>
 );
 
 const ProductsPDF = ({ content, isCategory, title }) => {
-  const productsPerPage = 6; // 3 rows x 2 columns
+  const productsPerPage = 6; // 3 rows × 2 columns
 
   return (
     <Document>
       {isCategory
-        ? // Render all sub-categories for a category
-          content.map((subCategory) => {
+        ? content.map((subCategory) => {
             const productChunks = [];
             for (
               let i = 0;
@@ -207,49 +207,52 @@ const ProductsPDF = ({ content, isCategory, title }) => {
                 size="A4"
                 style={styles.page}
               >
-                {/* <Text style={styles.medicalBadge}>MEDICAL EQUIPMENT</Text> */}
-                {chunkIndex === 0 && (
-                  <View style={styles.header}>
-                    <Text style={styles.title}>{title}</Text>
-                    {/* <Text style={styles.subtitle}>
-                      Professional Medical Product Catalog
-                    </Text> */}
+                {/* <Text style={styles.medicalBadge}></Text> */}
+
+                <View style={styles.header}>
+                  <Text style={styles.title}>{title}</Text>
+                  <Text style={styles.subtitle}>
+                    {/* Professional Healthcare Solutions */}
+                  </Text>
+                  {chunkIndex === 0 ? (
                     <Text style={styles.sectionTitle}>{subCategory.name}</Text>
-                  </View>
-                )}
-                {chunkIndex > 0 && (
-                  <View style={styles.header}>
+                  ) : (
                     <Text style={styles.sectionTitle}>
                       {subCategory.name} (continued)
                     </Text>
-                  </View>
-                )}
+                  )}
+                </View>
 
-                <View style={styles.productsContainer}>
-                  {chunk.map((product, index) => (
-                    <ProductCard key={index} product={product} />
+                <View style={styles.productsGrid}>
+                  {Array.from({ length: 6 }).map((_, index) => (
+                    <View key={index} style={styles.productColumn}>
+                      {chunk[index] ? (
+                        <ProductCard product={chunk[index]} />
+                      ) : (
+                        <View style={{ height: 200 }} />
+                      )}
+                    </View>
                   ))}
                 </View>
 
-                <Text style={styles.watermark}>Achieve Health Care</Text>
+                <Text style={styles.watermark}>ACHIEVE HEALTHCARE</Text>
                 <View style={styles.footer}>
                   <Text>
-                    For inquiries: achievehealthcare@gmail.com | + 977
+                    Contact: achievehealthcare@gmail.com | Phone: +977
                     9851073526
                   </Text>
                 </View>
                 <Text
                   style={styles.pageNumber}
                   render={({ pageNumber, totalPages }) =>
-                    `Page ${pageNumber} of ${totalPages}`
+                    `${pageNumber} / ${totalPages}`
                   }
                   fixed
                 />
               </Page>
             ));
           })
-        : // Render single sub-category
-          (() => {
+        : (() => {
             const productChunks = [];
             for (let i = 0; i < content.products.length; i += productsPerPage) {
               productChunks.push(
@@ -259,32 +262,38 @@ const ProductsPDF = ({ content, isCategory, title }) => {
 
             return productChunks.map((chunk, chunkIndex) => (
               <Page key={`page-${chunkIndex}`} size="A4" style={styles.page}>
-                {/* <Text style={styles.medicalBadge}>MEDICAL EQUIPMENT</Text> */}
-                {chunkIndex === 0 && (
-                  <View style={styles.header}>
-                    <Text style={styles.title}>{title}</Text>
-                    {/* <Text style={styles.subtitle}>
-                      Professional Medical Product Catalog
-                    </Text> */}
-                  </View>
-                )}
+                {/* <Text style={styles.medicalBadge}>MEDICAL CATALOG</Text> */}
 
-                <View style={styles.productsContainer}>
-                  {chunk.map((product, index) => (
-                    <ProductCard key={index} product={product} />
+                <View style={styles.header}>
+                  <Text style={styles.title}>{title}</Text>
+                  <Text style={styles.subtitle}>
+                    {/* Professional Healthcare Solutions */}
+                  </Text>
+                </View>
+
+                <View style={styles.productsGrid}>
+                  {Array.from({ length: 6 }).map((_, index) => (
+                    <View key={index} style={styles.productColumn}>
+                      {chunk[index] ? (
+                        <ProductCard product={chunk[index]} />
+                      ) : (
+                        <View style={{ height: 200 }} />
+                      )}
+                    </View>
                   ))}
                 </View>
 
-                <Text style={styles.watermark}>Achieve Health Care</Text>
+                <Text style={styles.watermark}>ACHIEVE HEALTHCARE</Text>
                 <View style={styles.footer}>
                   <Text>
-                    For inquiries: achievehealthcare@gmail.com | +977 9851073526
+                    Contact: achievehealthcare@gmail.com | Phone: +977
+                    9851073526
                   </Text>
                 </View>
                 <Text
                   style={styles.pageNumber}
                   render={({ pageNumber, totalPages }) =>
-                    `Page ${pageNumber} of ${totalPages}`
+                    `${pageNumber} / ${totalPages}`
                   }
                   fixed
                 />
