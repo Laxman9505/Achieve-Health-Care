@@ -101,7 +101,12 @@ const Navbar2 = () => {
                           <ul>
                             <li>
                               <a>
-                                Surgical Disposable Items
+                                <Link
+                                  to={"/products?type=surgical-disposables"}
+                                >
+                                  Surgical Disposable Items
+                                </Link>
+
                                 <span
                                   className="float-right"
                                   style={{ marginLeft: "10px" }}

@@ -526,7 +526,11 @@ const AboutUs = () => {
               <div className="col-lg-4 col-sm-6">
                 <div className="ltn__team-item ltn__team-item-3--- shadow-sm">
                   <div className="team-img">
-                    <img src="" style={{ maxHeight: "368px" }} alt="Image" />
+                    <img
+                      src="assets/img/team/sasanka.png"
+                      style={{ maxHeight: "368px" }}
+                      alt="Image"
+                    />
                   </div>
                   <div className="team-info">
                     <h4>

@@ -1,5 +1,4 @@
 /** @format */
-
 import {
   Document,
   Font,
@@ -48,6 +47,17 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: "#666",
   },
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#333",
+    marginTop: 20,
+    marginBottom: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: "#e0e0e0",
+    borderBottomStyle: "solid",
+    paddingBottom: 5,
+  },
   productsContainer: {
     flexDirection: "row",
     flexWrap: "wrap",
@@ -89,32 +99,56 @@ const styles = StyleSheet.create({
   },
 });
 
-const ProductsPDF = ({ subCategory }) => (
+const ProductsPDF = ({ content, isCategory, title }) => (
   <Document>
     <Page size="A4" style={styles.page}>
       <View style={styles.header}>
-        <Text style={styles.title}>{subCategory.name}</Text>
+        <Text style={styles.title}>{title}</Text>
         <Text style={styles.subtitle}>
           Product Catalog - {new Date().toLocaleDateString()}
         </Text>
       </View>
 
-      <View style={styles.productsContainer}>
-        {subCategory.products.map((product, index) => (
-          <View key={index} style={styles.productCard}>
-            <View style={styles.productImageContainer}>
-              <PDFImage
-                style={styles.productImage}
-                src={product.image}
-                // Optimize image by reducing quality (adjust as needed)
-                minWidth={120}
-                minHeight={120}
-              />
+      {isCategory ? (
+        // Render all sub-categories for a category
+        content.map((subCategory) => (
+          <View key={subCategory.type}>
+            <Text style={styles.sectionTitle}>{subCategory.name}</Text>
+            <View style={styles.productsContainer}>
+              {subCategory.products.map((product, index) => (
+                <View key={index} style={styles.productCard}>
+                  <View style={styles.productImageContainer}>
+                    <PDFImage
+                      style={styles.productImage}
+                      src={product.image}
+                      minWidth={120}
+                      minHeight={120}
+                    />
+                  </View>
+                  <Text style={styles.productName}>{product.name}</Text>
+                </View>
+              ))}
             </View>
-            <Text style={styles.productName}>{product.name}</Text>
           </View>
-        ))}
-      </View>
+        ))
+      ) : (
+        // Render single sub-category
+        <View style={styles.productsContainer}>
+          {content.products.map((product, index) => (
+            <View key={index} style={styles.productCard}>
+              <View style={styles.productImageContainer}>
+                <PDFImage
+                  style={styles.productImage}
+                  src={product.image}
+                  minWidth={120}
+                  minHeight={120}
+                />
+              </View>
+              <Text style={styles.productName}>{product.name}</Text>
+            </View>
+          ))}
+        </View>
+      )}
 
       <View style={styles.footer}>
         <Text>
